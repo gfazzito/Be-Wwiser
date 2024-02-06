@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{63779716-B0BD-46C7-9310-BCB5F5F6B664}" SchemaVersion="119">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{63779716-B0BD-46C7-9310-BCB5F5F6B664}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Music" ID="{0C454617-1600-4168-A246-4F539DC40652}" ShortID="907961280">
+					<ChildrenList>
+						<ModulatorEnvelope Name="Reverb_Transition" ID="{E51281FA-4DF2-4067-896E-D860F3D7121B}" ShortID="96205490">
+							<PropertyList>
+								<Property Name="EnvelopeAttackCurve" Type="Real64" Value="100"/>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="10"/>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="1"/>
+								<Property Name="EnvelopeReleaseTime" Type="Real64" Value="1"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+						<ModulatorTime Name="ReverbDecay" ID="{A3593438-B5AA-4724-AA96-D35682A0C5FD}" ShortID="105800869">
+							<PropertyList>
+								<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+								<Property Name="TimeModDuration" Type="Real64" Value="7"/>
+								<Property Name="TimeModInitialDelay" Type="Real64" Value="3"/>
+							</PropertyList>
+						</ModulatorTime>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

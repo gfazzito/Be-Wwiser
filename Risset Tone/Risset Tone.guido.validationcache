@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="97">
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Virtual Acoustics\Default Work Unit.wwu" DateLow="1651455622" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Triggers\Default Work Unit.wwu" DateLow="1651455622" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Switches\Default Work Unit.wwu" DateLow="1651455622" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\States\Default Work Unit.wwu" DateLow="1651455622" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1651455622" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\SoundBanks\Default Work Unit.wwu" DateLow="1651455622" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Risset Tone.wproj" DateLow="1671570637" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Queries\Factory Queries.wwu" DateLow="1631481056" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Queries\Default Work Unit.wwu" DateLow="1651455622" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Presets\Factory Spatial Audio.wwu" DateLow="1631481056" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Presets\Default Work Unit.wwu" DateLow="1651455622" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Modulators\Default Work Unit.wwu" DateLow="1657329726" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Mixing Sessions\Default Work Unit.wwu" DateLow="1651455622" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1657133435" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1651455622" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Game Parameters\Default Work Unit.wwu" DateLow="1651500324" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Events\Default Work Unit.wwu" DateLow="1671570637" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Effects\Factory Effects.wwu" DateLow="1631481055" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Effects\Default Work Unit.wwu" DateLow="1651455622" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1651455622" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1631481055" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Conversion Settings\Default Work Unit.wwu" DateLow="1651455622" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Control Surface Sessions\Default Work Unit.wwu" DateLow="1651455622" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Audio Devices\Default Work Unit.wwu" DateLow="1651455622" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Attenuations\Default Work Unit.wwu" DateLow="1651455622" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Wwise\Tono de Risset\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1657329726" DateHigh="0"/>
+</ValidationCache>

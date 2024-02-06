@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{20B2E8FC-D0B9-40E1-9A13-82B674A6A91C}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{20B2E8FC-D0B9-40E1-9A13-82B674A6A91C}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Enemy_Distance" ID="{5B96BC0C-1032-4CAA-BE0A-8E94FB796804}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Percussion_ReverbLevel" ID="{7645E788-28AE-4BEF-AC5B-D60BF0A83694}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

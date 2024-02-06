@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{03A7A5B2-A656-4D6E-A11C-6D388C79BF58}" SchemaVersion="97">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{03A7A5B2-A656-4D6E-A11C-6D388C79BF58}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{4E2C0BCC-4502-42A7-9BD4-EA21E1037936}" WorkUnitID="{1298FB26-46E4-4CCF-B522-238D2BFAE723}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Música" ID="{44CC988C-B248-4A2E-B4C4-6B1C7EB29DB2}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="MusicaEncendido" ID="{7BD2668A-EE3F-45D6-9CE3-AC7C7D8F794C}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="On" ID="{57CB82F1-2C3F-472C-B2E4-057488A38322}"/>
+										<CustomState Name="" ID="{85795793-0BF4-4994-8F6B-87CD644D26BA}" ShortID="590704895"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Off" ID="{27951BE9-313A-4FC5-9EA1-02D493BACB08}"/>
+										<CustomState Name="" ID="{794D3CA9-40BF-4673-8200-46BD89EFE01B}" ShortID="358979426">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="Sonidos" ID="{E2265364-5FC2-48F8-9260-E86F2BA17595}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="SonidosEncendido" ID="{3C2EEBA7-ED5A-463D-A879-46EACB622CC3}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="On" ID="{5DCAF141-A68D-4B76-BE9D-7B4D42FAD0C3}"/>
+										<CustomState Name="" ID="{51BBF33A-DA76-479B-835E-D6642AE112A5}" ShortID="303360632"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Off" ID="{4C85B71E-1425-4D1E-8598-24292FFC2F59}"/>
+										<CustomState Name="" ID="{7057D89A-1280-44EF-AE99-CCF9F96F6597}" ShortID="640124202">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

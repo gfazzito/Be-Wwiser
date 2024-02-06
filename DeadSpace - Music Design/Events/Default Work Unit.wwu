@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DFDAB861-6D18-48AD-AC1A-8C3D59D5C55D}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{DFDAB861-6D18-48AD-AC1A-8C3D59D5C55D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Stop_All" ID="{41205F08-D995-4CA8-8C19-5976782BF164}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{E15236F8-51D0-4022-B1D7-225619F3E4F7}" ShortID="125429194">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{3573775A-AF4C-4CB1-8FCA-E22334ACFC9A}" ShortID="199399634">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exploration" ID="{0D4DAF0F-85A4-428D-8E87-BB9D92357A45}" WorkUnitID="{24D21E7F-8706-4570-BC4B-07DA90C84503}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9DFA9E19-D0C3-4333-95E6-2A4B40E4B3CC}" ShortID="707331591">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Distance" ID="{5B96BC0C-1032-4CAA-BE0A-8E94FB796804}" WorkUnitID="{20B2E8FC-D0B9-40E1-9A13-82B674A6A91C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{717DC054-4263-4D70-BF11-3C07096E2175}" ShortID="159812273">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Percussion_ReverbLevel" ID="{7645E788-28AE-4BEF-AC5B-D60BF0A83694}" WorkUnitID="{20B2E8FC-D0B9-40E1-9A13-82B674A6A91C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music" ID="{66E9A13B-5F95-45DC-974A-97022E3F6F9D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{6816C6D6-7533-4A44-80F0-F31C0D59471B}" ShortID="142148661">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gameplay" ID="{549199D9-FDE1-43D7-8EA1-9F7264794E75}" WorkUnitID="{F691DFBE-EC2B-4B93-9802-65C7B454603F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F96CCFF4-5965-46F8-B847-480C998FC54B}" ShortID="851131057">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Percussion" ID="{AADD0B6F-1DCC-42D0-AE82-EB2FB7CFB58F}" WorkUnitID="{F691DFBE-EC2B-4B93-9802-65C7B454603F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="States" ID="{1CBF494C-7F52-4324-9B94-7BF5A743E15A}" ShortID="347487753">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Set_State_Combat" ID="{B7B517FF-343D-40E1-8FAC-A877B44B876A}">
+							<ChildrenList>
+								<Action Name="" ID="{0C51B262-AE0A-4296-AEDB-A185B8446810}" ShortID="447140158">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Combat" ID="{EE8764D5-9553-4588-9DC8-9FA337396B19}" WorkUnitID="{24D21E7F-8706-4570-BC4B-07DA90C84503}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Exploration" ID="{34DAFB55-E6B2-4268-952C-B9517913C812}">
+							<ChildrenList>
+								<Action Name="" ID="{3DE2836C-A5D9-4938-B87B-A7D2409A7F86}" ShortID="8371828">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Exploration" ID="{0D4DAF0F-85A4-428D-8E87-BB9D92357A45}" WorkUnitID="{24D21E7F-8706-4570-BC4B-07DA90C84503}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7AD17BF9-EE16-4CEC-ABC4-B10D42D8D1A4}" ShortID="935757599">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Percussion_ReverbLevel" ID="{7645E788-28AE-4BEF-AC5B-D60BF0A83694}" WorkUnitID="{20B2E8FC-D0B9-40E1-9A13-82B674A6A91C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Puzzle_Sound" ID="{0CEEEBC2-A7FD-4F6A-8390-EC85F6C083FF}">
+					<ChildrenList>
+						<Action Name="" ID="{69E0224F-9E0A-4A75-A14A-96834E4D04B5}" ShortID="847343477">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Puzzle_Sound" ID="{EF73AC61-1E97-40DA-851E-333121E717FA}" WorkUnitID="{050D0F9C-5C01-4B47-8EC8-8AB0DD31A382}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C2670EAF-2C8E-4149-A9A1-CE1939979DDB}" ShortID="781755588">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PuzzleResolved" ID="{90411157-08FD-435E-B35E-CF6A97D7560C}" WorkUnitID="{F691DFBE-EC2B-4B93-9802-65C7B454603F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MonsterPassing" ID="{B2113AE4-CB0C-465C-9219-91621C44E36C}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{01B08042-6500-42DD-8B75-0AC199BEE19B}" ShortID="842789243">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MonsterPassing" ID="{8CD56C71-AF0D-4DA2-93E4-7262C5660393}" WorkUnitID="{F691DFBE-EC2B-4B93-9802-65C7B454603F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="RTPC" ID="{326C0F85-159F-48CF-8ACE-D1DFFD3B1C49}" ShortID="879063382">
+					<ChildrenList>
+						<Event Name="Set_Game_Parameter_Percussion_Reverb" ID="{9326D0E7-9CC5-4296-B4FE-6957B4C4D2CF}">
+							<ChildrenList>
+								<Action Name="" ID="{97A64ACB-6D48-4BBE-A401-7AB2AF57839E}" ShortID="494969438">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Percussion_ReverbLevel" ID="{7645E788-28AE-4BEF-AC5B-D60BF0A83694}" WorkUnitID="{20B2E8FC-D0B9-40E1-9A13-82B674A6A91C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

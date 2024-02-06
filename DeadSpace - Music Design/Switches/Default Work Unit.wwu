@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DAB4426D-6D25-4CE3-BBBB-15DD6A82E46E}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{DAB4426D-6D25-4CE3-BBBB-15DD6A82E46E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Enemy_Distance" ID="{99B52236-F7EA-4E51-AD6B-18A3BF3AF6B0}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Far" ID="{15EBDF12-0641-462B-91FF-FAFB018439EB}"/>
+						<Switch Name="Mid" ID="{BF63FE6F-80A8-4B8E-8CC4-6F17249F4754}"/>
+						<Switch Name="Close" ID="{19058290-DB8E-4210-95AB-899CEFC1A91C}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Enemy_Distance" ID="{5B96BC0C-1032-4CAA-BE0A-8E94FB796804}"/>
+						<Curve Name="" ID="{FB66CB6D-C97B-4F78-9CF4-385303FA6670}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>3</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.33</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>0.65005</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>1</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
