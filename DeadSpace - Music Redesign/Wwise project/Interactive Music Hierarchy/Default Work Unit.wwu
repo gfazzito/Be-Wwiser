@@ -57,7 +57,6 @@
 												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
 												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
 											</PropertyList>
-											<ReferenceList/>
 											<TransitionInfo>
 												<SourceFadeOut>
 													<MusicFade Name="Source Fade-out" ID="{79B27895-96D5-4121-B6A3-9F7099178402}">
@@ -925,6 +924,27 @@
 														</DestinationFadeIn>
 													</TransitionInfo>
 												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{5398A8C3-F195-47EB-861D-5BB77B3FC409}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="SourceContextType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="Combat_Intro" ID="{904E5C9B-51DC-49E9-8689-E915D1E94A14}" WorkUnitID="{F691DFBE-EC2B-4B93-9802-65C7B454603F}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo>
+														<DestinationFadeIn>
+															<MusicFade Name="Destination Fade-in" ID="{0CA8D2E1-3D18-4E7C-952E-3241646E9887}">
+																<PropertyList>
+																	<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</DestinationFadeIn>
+													</TransitionInfo>
+												</MusicTransition>
 											</ChildrenList>
 											<TransitionInfo/>
 										</MusicTransition>
@@ -1516,7 +1536,7 @@
 								</MusicSegment>
 								<MusicSegment Name="Combat_Intro" ID="{904E5C9B-51DC-49E9-8689-E915D1E94A14}" ShortID="717481371">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="7244.98780469908"/>
+										<Property Name="EndPosition" Type="Real64" Value="7647.63863938472"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1735,7 +1755,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Akuma2_XMax_YMax" ID="{1D800FAA-3FE9-42E9-BB61-BBE916CBC6AC}" ShortID="166691217">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="18000"/>
+										<Property Name="EndPosition" Type="Real64" Value="13000"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-6</Value>
