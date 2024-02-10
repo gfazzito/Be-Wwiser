@@ -34,6 +34,9 @@
 							<Reference>
 								<Local>
 									<EffectSlot Name="" ID="{AFF288EA-C458-4D6E-A99A-1360BE6E48D2}" ShortID="656954623">
+										<PropertyList>
+											<Property Name="Bypass" Type="bool" Value="True"/>
+										</PropertyList>
 										<ReferenceList>
 											<Reference Name="Effect">
 												<Custom>
