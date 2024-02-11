@@ -213,7 +213,6 @@
 						<MusicSegment Name="Loop" ID="{8E7147A5-7FD2-4A10-9A34-5719BDEBA203}" ShortID="1058247906">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="5333.33333333333"/>
-								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="90"/>
 							</PropertyList>
 							<ReferenceList>
@@ -281,9 +280,9 @@
 																	<Local>
 																		<MusicClip Name="snare" ID="{FEBCD4BF-4B2B-48B3-9A7C-F230AEB342FE}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="5000"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="5333.33333333333"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutDuration" Type="Real64" Value="2325.29011547964"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="2663.87587080449"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="snare" ID="{87F7B5D0-452B-4DA1-90CF-B21001355840}"/>
 																			<PropertyCurveList>
@@ -299,7 +298,7 @@
 																								<Flags>5</Flags>
 																							</Point>
 																							<Point>
-																								<XPos>5</XPos>
+																								<XPos>5.33333</XPos>
 																								<YPos>0</YPos>
 																								<Flags>37</Flags>
 																							</Point>
@@ -318,7 +317,7 @@
 																								<Flags>5</Flags>
 																							</Point>
 																							<Point>
-																								<XPos>5</XPos>
+																								<XPos>5.33333</XPos>
 																								<YPos>0</YPos>
 																								<Flags>37</Flags>
 																							</Point>
@@ -337,7 +336,7 @@
 																								<Flags>5</Flags>
 																							</Point>
 																							<Point>
-																								<XPos>5</XPos>
+																								<XPos>5.33333</XPos>
 																								<YPos>0</YPos>
 																								<Flags>37</Flags>
 																							</Point>
@@ -369,6 +368,7 @@
 								<MusicTrack Name="kick" ID="{3AC3A56C-1E8B-4014-A202-D33DD286C586}" ShortID="487115369">
 									<PropertyList>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -636,6 +636,9 @@
 									</ObjectLists>
 								</MusicTrack>
 								<MusicTrack Name="hihat abierto" ID="{A5D8DFB4-4334-4B4C-B166-AF3F931239DB}" ShortID="957435081">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A1264F9-BE88-46FC-9A99-20E53848DC47}"/>
@@ -750,6 +753,9 @@
 									</ObjectLists>
 								</MusicTrack>
 								<MusicTrack Name="Snare_Dry" ID="{416D7404-0B4E-44F2-8863-33F3597F39EA}" ShortID="696477330">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A1264F9-BE88-46FC-9A99-20E53848DC47}"/>
@@ -864,6 +870,9 @@
 									</ObjectLists>
 								</MusicTrack>
 								<MusicTrack Name="Hihat" ID="{B5973045-D792-4948-8457-AD19AD81CD06}" ShortID="907922779">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CEA483DB-7C9D-4079-AF10-BA4423BCF433}"/>
@@ -977,6 +986,7 @@
 								<MusicTrack Name="1-E-Piano Detuned" ID="{C80F807A-2EFA-4B54-B00A-65263F0EEE03}" ShortID="1030342000">
 									<PropertyList>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
@@ -1101,12 +1111,45 @@
 																								<Flags>5</Flags>
 																							</Point>
 																							<Point>
-																								<XPos>2.67095</XPos>
-																								<YPos>44.72915</YPos>
-																								<Flags>0</Flags>
+																								<XPos>5.33333</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{DDDBE1D9-9C0C-46FA-88CC-F8364936C32F}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
 																							</Point>
 																							<Point>
-																								<XPos>5.33333333333333</XPos>
+																								<XPos>5.33333</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{F88FB7DB-49DB-4A99-BD86-78FEABC97756}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>5.33333</XPos>
 																								<YPos>0</YPos>
 																								<Flags>37</Flags>
 																							</Point>
@@ -1157,28 +1200,6 @@
 							</ObjectLists>
 						</MusicSegment>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="Effects">
-							<Reference>
-								<Local>
-									<EffectSlot Name="" ID="{4E9A0400-9981-4108-ABE1-565BAFDD72A5}" ShortID="221892862">
-										<ReferenceList>
-											<Reference Name="Effect">
-												<Custom>
-													<Effect Name="Time Stretch (Custom)" ID="{44334AF3-3694-477C-A516-8788AEE6A0DB}" ShortID="544155447" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
-														<PropertyList>
-															<Property Name="TimeStretch" Type="Real32" Value="373"/>
-															<Property Name="WindowSize" Type="int32" Value="2560"/>
-														</PropertyList>
-													</Effect>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</EffectSlot>
-								</Local>
-							</Reference>
-						</ObjectList>
-					</ObjectLists>
 				</MusicPlaylistContainer>
 			</ChildrenList>
 		</WorkUnit>

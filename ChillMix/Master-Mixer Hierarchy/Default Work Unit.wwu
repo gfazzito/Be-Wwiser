@@ -4,13 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{CEA483DB-7C9D-4079-AF10-BA4423BCF433}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
-					<PropertyList>
-						<Property Name="BusVolume" Type="Real64">
-							<ValueList>
-								<Value>-14</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
 							<ObjectRef Name="System" ID="{34112900-71B5-4D02-B691-E1876478EDAD}" WorkUnitID="{3F47617C-2F49-482F-93F6-77085611CC2F}"/>
@@ -20,17 +13,10 @@
 						<ObjectList Name="Effects">
 							<Reference>
 								<Local>
-									<EffectSlot Name="" ID="{B3590DBE-0065-4D01-9B1E-637B8058B5D4}" ShortID="407372439">
+									<EffectSlot Name="" ID="{4709A009-0BBA-4BAC-A4EA-F1D7AB7DCDF3}" ShortID="1048566820">
 										<ReferenceList>
-											<Reference Name="Effect">
-												<Custom>
-													<Effect Name="Recorder (Custom)" ID="{38790A32-22B2-4887-8CFE-B77F4631492E}" ShortID="308586964" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
-														<PropertyList>
-															<Property Name="AmbisonicsChannelOrdering" Type="int16" Value="0"/>
-															<Property Name="AuthoringFilename" Type="string" Value="G:\BORRAR\Renderizados\TUNEL-MASTER.wav"/>
-														</PropertyList>
-													</Effect>
-												</Custom>
+											<Reference Name="Effect" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+												<ObjectRef Name="Recorder_Default" ID="{DB77E5C2-0476-44DB-9109-D74C6CB17AA5}" WorkUnitID="{45F0C0CD-5B24-41AF-820C-ABA700463CC9}"/>
 											</Reference>
 										</ReferenceList>
 									</EffectSlot>

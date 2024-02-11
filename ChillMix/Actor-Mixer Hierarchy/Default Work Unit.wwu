@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6E95ABBA-1E4B-4AD1-948C-515828357350}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{6E95ABBA-1E4B-4AD1-948C-515828357350}" PersistMode="Standalone">
-			<ChildrenList>
-				<Sound Name="New Sound SFX" ID="{5C5124B4-65E6-46C8-BE9C-AF3329BFBC61}" ShortID="639376691">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A1264F9-BE88-46FC-9A99-20E53848DC47}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CEA483DB-7C9D-4079-AF10-BA4423BCF433}"/>
-						</Reference>
-					</ReferenceList>
-				</Sound>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{6E95ABBA-1E4B-4AD1-948C-515828357350}" PersistMode="Standalone"/>
 	</AudioObjects>
 </WwiseDocument>
