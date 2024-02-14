@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EADF8AB4-8344-4D1B-8965-F01B9047A65C}" SchemaVersion="119">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{EADF8AB4-8344-4D1B-8965-F01B9047A65C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{5E5D7E8A-3E69-4B0A-942A-4E9C80AFE4F7}" WorkUnitID="{2453EA0A-7866-4269-9366-55D4A681EEF6}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{8C65C100-CDE9-4F3D-9CE2-24AEA5B60B15}" ShortID="71983152">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Compressor (Custom)" ID="{3FA6650D-A3D3-4FBC-91B5-8F8977A95BA4}" ShortID="690266126" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+														<PropertyList>
+															<Property Name="OutputGain" Type="Real32" Value="4"/>
+															<Property Name="Ratio" Type="Real32" Value="2"/>
+															<Property Name="ReleaseTime" Type="Real32" Value="0.2"/>
+															<Property Name="Threshold" Type="Real32" Value="-30"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

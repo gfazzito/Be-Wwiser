@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5C5487CF-1476-492D-85E4-4AE0018C6298}" SchemaVersion="119">
+	<ControlSurfaceSessions>
+		<WorkUnit Name="Default Work Unit" ID="{5C5487CF-1476-492D-85E4-4AE0018C6298}" PersistMode="Standalone">
+			<ChildrenList>
+				<ControlSurfaceSession Name="Default Control Surface Session" ID="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}">
+					<ChildrenList>
+						<ControlSurfaceBindingGroup Name="Global" ID="{DA33AB56-6B74-4276-B0FD-406452A8A955}">
+							<ChildrenList>
+								<ControlSurfaceBinding Name="Play" ID="{E5CCB1C5-6C30-447E-ADB2-2721B6F93D72}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="Loop Midi Port 1~Ch.1~Note-On~24"/>
+										<Property Name="TargetName" Type="string" Value="TransportPlay"/>
+										<Property Name="TargetType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="Play_MainMenu" ID="{08298C1A-23A4-4EC9-934B-46F20B066A1B}" WorkUnitID="{3E0A5566-FBCF-4848-A08B-93186D852570}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+								<ControlSurfaceBinding Name="Stop" ID="{62DEA769-3A64-491B-AE19-8912C8E0F44F}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="Loop Midi Port 1~Ch.1~Note-On~25"/>
+										<Property Name="TargetName" Type="string" Value="TransportPlay"/>
+										<Property Name="TargetType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="Stop_MainMenu" ID="{E4EA7A77-ACBC-4EB8-9802-F84E13D31D89}" WorkUnitID="{3E0A5566-FBCF-4848-A08B-93186D852570}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+							</ChildrenList>
+						</ControlSurfaceBindingGroup>
+						<ControlSurfaceBindingGroup Name="Current Selection" ID="{74946B26-9E36-468C-A754-5F8C6E407E14}">
+							<PropertyList>
+								<Property Name="GroupType" Type="int16" Value="4"/>
+							</PropertyList>
+							<ChildrenList>
+								<ControlSurfaceBinding Name="Binding" ID="{FFAC3378-E726-4CB7-8D31-931EDDC9CB16}">
+									<PropertyList>
+										<Property Name="TargetName" Type="string" Value="PassMidiNote"/>
+										<Property Name="TargetType" Type="int16" Value="1"/>
+									</PropertyList>
+								</ControlSurfaceBinding>
+							</ChildrenList>
+						</ControlSurfaceBindingGroup>
+						<ControlSurfaceBindingGroup Name="View Groups" ID="{B63E6E1A-A837-4951-8E7E-838AFFD2AA0C}">
+							<PropertyList>
+								<Property Name="GroupType" Type="int16" Value="3"/>
+							</PropertyList>
+						</ControlSurfaceBindingGroup>
+					</ChildrenList>
+				</ControlSurfaceSession>
+			</ChildrenList>
+		</WorkUnit>
+	</ControlSurfaceSessions>
+</WwiseDocument>

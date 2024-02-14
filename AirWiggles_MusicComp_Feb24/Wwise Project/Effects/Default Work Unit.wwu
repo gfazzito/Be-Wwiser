@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AE26ED71-2320-4674-9AC7-A296A76EDB2F}" SchemaVersion="119">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{AE26ED71-2320-4674-9AC7-A296A76EDB2F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="StretchedMusic_01_Delay" ID="{3856C611-FA74-41AA-8C30-AF34ED9D51D9}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
+					<PropertyList>
+						<Property Name="LeftDelayTime" Type="Real32" Value="0.15"/>
+						<Property Name="RightDelayTime" Type="Real32" Value="0.12"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>
