@@ -31,6 +31,27 @@
 									</EffectSlot>
 								</Local>
 							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{CE9D96E2-C483-4E7B-A33D-4825F016B82A}" ShortID="554190095">
+										<PropertyList>
+											<Property Name="Bypass" Type="bool" Value="True"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Recorder (Custom)" ID="{CA06BED0-D1DC-4E42-B396-724D901C7715}" ShortID="298698534" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+														<PropertyList>
+															<Property Name="AmbisonicsChannelOrdering" Type="int16" Value="0"/>
+															<Property Name="AuthoringFilename" Type="string" Value="G:\BORRAR\Renderizados\AirWiggles.wav"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
 						</ObjectList>
 					</ObjectLists>
 				</Bus>
