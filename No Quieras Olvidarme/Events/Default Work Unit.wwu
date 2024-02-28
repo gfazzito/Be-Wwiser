@@ -1,6 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3E0A5566-FBCF-4848-A08B-93186D852570}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{3E0A5566-FBCF-4848-A08B-93186D852570}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3E0A5566-FBCF-4848-A08B-93186D852570}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Intro_ExitCue" ID="{8A63C3B7-1491-4837-AA49-5660210DDF36}">
+					<ChildrenList>
+						<Action Name="" ID="{37A8A733-6B73-4BA6-A2E6-6D8A7797ABC4}" ShortID="245156126">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Panning" ID="{BFEB9E61-F34A-4A50-8BE9-2AFD5BADAC8C}" WorkUnitID="{9C958D1F-6042-4177-A11F-693CAE1A3B36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RESET" ID="{B3A8668F-87EB-4269-9810-D12069867697}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{57890480-E6A2-48EF-88E2-5073D5B6EC45}" ShortID="365057541">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{C8F11550-8926-4643-A982-3087E038AA49}" ShortID="1018819485">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Panning" ID="{BFEB9E61-F34A-4A50-8BE9-2AFD5BADAC8C}" WorkUnitID="{9C958D1F-6042-4177-A11F-693CAE1A3B36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ValseBrillante" ID="{302D412A-4CF0-46F6-9FE1-54A11ECDC51F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{344A9A46-F75D-485B-A6D7-D9520207CE66}" ShortID="219199989">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{0D61F98B-DB80-4DA4-8822-EA17CCF06328}" ShortID="652929403">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Panning" ID="{BFEB9E61-F34A-4A50-8BE9-2AFD5BADAC8C}" WorkUnitID="{9C958D1F-6042-4177-A11F-693CAE1A3B36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0860593E-C0EE-49B6-ADDC-87EFF7A69C5C}" ShortID="797864877">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ValseBrillante" ID="{F754D763-BDB3-470D-90B8-7C4D20E3C929}" WorkUnitID="{72BF3073-38D7-405D-A349-3A29C7F78E1D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hermano" ID="{B78BEEE0-9E2A-424E-9FD7-9BF62ED31FFA}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="16"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{EA20C97E-4B1B-4C7C-BDCB-15722F86D7BA}" ShortID="745194626">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{8ECA3942-78F8-4BA0-B770-2319612FE4AA}" ShortID="226172403">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Panning" ID="{BFEB9E61-F34A-4A50-8BE9-2AFD5BADAC8C}" WorkUnitID="{9C958D1F-6042-4177-A11F-693CAE1A3B36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{09F3AF04-D7BF-47D3-9BCB-A8BD60A344BA}" ShortID="730547646">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hermano" ID="{746D3CE4-A0A4-4DC1-9A50-CC1638AD4641}" WorkUnitID="{72BF3073-38D7-405D-A349-3A29C7F78E1D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TheCoat" ID="{CB5320D7-73DD-4B4C-BEFC-60293369159F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{F7F6A171-26D1-40DA-9F63-05B3DB54CBFF}" ShortID="177818307">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{377C4DA1-9656-4925-B990-FE84A4500861}" ShortID="684412948">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Panning" ID="{BFEB9E61-F34A-4A50-8BE9-2AFD5BADAC8C}" WorkUnitID="{9C958D1F-6042-4177-A11F-693CAE1A3B36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B44B8BB9-9415-4CC2-82CC-07411E387302}" ShortID="1048130">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="The Coat Style" ID="{E326842A-54B2-48EC-A6CF-84B89288463F}" WorkUnitID="{72BF3073-38D7-405D-A349-3A29C7F78E1D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

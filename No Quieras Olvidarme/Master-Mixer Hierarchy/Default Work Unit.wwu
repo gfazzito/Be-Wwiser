@@ -34,16 +34,13 @@
 							<Reference>
 								<Local>
 									<EffectSlot Name="" ID="{AFF288EA-C458-4D6E-A99A-1360BE6E48D2}" ShortID="656954623">
-										<PropertyList>
-											<Property Name="Bypass" Type="bool" Value="True"/>
-										</PropertyList>
 										<ReferenceList>
 											<Reference Name="Effect">
 												<Custom>
 													<Effect Name="Recorder (Custom)" ID="{2098DBA4-D977-4D9B-8237-A9DD4903B11A}" ShortID="715394686" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
 														<PropertyList>
 															<Property Name="AmbisonicsChannelOrdering" Type="int16" Value="0"/>
-															<Property Name="AuthoringFilename" Type="string" Value="G:\BORRAR\Renderizados\Record.wav"/>
+															<Property Name="AuthoringFilename" Type="string" Value="G:\BORRAR\Renderizados\NQO-TheCoat.wav"/>
 														</PropertyList>
 													</Effect>
 												</Custom>

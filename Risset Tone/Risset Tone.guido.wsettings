@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="UserProjectSettings" SchemaVersion="97">
+<WwiseDocument Type="UserProjectSettings" SchemaVersion="119">
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{855D82DD-065D-45B3-8D57-6F2EEF8BA4CC}">
 			<PropertyList>
+				<Property Name="Event Action List\{1C270931-B5FC-46E0-BF2C-8E1E504C29FD}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{796570DF-CEB1-4A8F-A416-34A6D0837074}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
-				<Property Name="ExternalSourcesInputPath" Type="string">
-					<ValueList>
-						<Value Platform="Windows"></Value>
-					</ValueList>
-				</Property>
-				<Property Name="ExternalSourcesOutputPath" Type="string">
-					<ValueList>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
-					</ValueList>
-				</Property>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="LoudnessMeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -69,9 +62,9 @@
 				<Property Name="ProjectExplorer\x64_Expanded_20_2" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_2" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="OHh06P5Lwk+pnrb7DCKy3g=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="jW4ZHzBo6Ey+l7Qr0s7vwzh4dOj+S8JPqZ62+wwist4="/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_2" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="E7TdJdnGPkO7OI/0S59Ulw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_2" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_2" Type="string" Value=""/>
@@ -86,31 +79,6 @@
 				<Property Name="RTPC\GameParameterSimValue\{5E17BAFD-4093-423D-B899-0EE48AE021EC}" Type="Real64" Value="0.14"/>
 				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value=""/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
-				<Property Name="SoundBankPaths" Type="string">
-					<ValueList>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
-					</ValueList>
-				</Property>
-				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
-					<ValueList>
-						<Value Platform="Windows">Copy Streamed Files</Value>
-					</ValueList>
-				</Property>
-				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
-					<ValueList>
-						<Value Platform="Windows">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
-					</ValueList>
-				</Property>
-				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
-					<ValueList>
-						<Value Platform="Windows"></Value>
-					</ValueList>
-				</Property>
-				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
-					<ValueList>
-						<Value Platform="Windows"></Value>
-					</ValueList>
-				</Property>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>

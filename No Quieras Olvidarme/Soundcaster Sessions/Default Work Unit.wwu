@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{90836EA3-9A33-4F3D-A1DA-B5392EB0D164}" SchemaVersion="119">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{90836EA3-9A33-4F3D-A1DA-B5392EB0D164}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{90836EA3-9A33-4F3D-A1DA-B5392EB0D164}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Music" ID="{F96095DC-EE10-4FBB-B5E5-E1F12F5D4D8A}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Hermano" ID="{B78BEEE0-9E2A-424E-9FD7-9BF62ED31FFA}" WorkUnitID="{3E0A5566-FBCF-4848-A08B-93186D852570}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_TheCoat" ID="{CB5320D7-73DD-4B4C-BEFC-60293369159F}" WorkUnitID="{3E0A5566-FBCF-4848-A08B-93186D852570}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_ValseBrillante" ID="{302D412A-4CF0-46F6-9FE1-54A11ECDC51F}" WorkUnitID="{3E0A5566-FBCF-4848-A08B-93186D852570}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RESET" ID="{B3A8668F-87EB-4269-9810-D12069867697}" WorkUnitID="{3E0A5566-FBCF-4848-A08B-93186D852570}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Panning" ID="{BFEB9E61-F34A-4A50-8BE9-2AFD5BADAC8C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

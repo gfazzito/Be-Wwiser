@@ -3,7 +3,11 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{9C958D1F-6042-4177-A11F-693CAE1A3B36}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="Panning_Testing" ID="{BFEB9E61-F34A-4A50-8BE9-2AFD5BADAC8C}"/>
+				<GameParameter Name="Panning" ID="{BFEB9E61-F34A-4A50-8BE9-2AFD5BADAC8C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
