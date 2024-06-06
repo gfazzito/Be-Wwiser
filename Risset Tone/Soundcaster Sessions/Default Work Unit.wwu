@@ -14,7 +14,12 @@
 							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}"/>
+							<Value>0.1</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
