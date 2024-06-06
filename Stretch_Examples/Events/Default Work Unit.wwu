@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D76F7691-11FA-44E4-A56B-B0850B673986}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{D76F7691-11FA-44E4-A56B-B0850B673986}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Example_01" ID="{9E7964E5-9F48-42BA-A14C-B7198A550350}">
+					<ChildrenList>
+						<Action Name="" ID="{32BD9C09-0986-4886-9041-71849368F3AB}" ShortID="950628543">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SCIShip_SCIFI Spaceship Door Abduction_01" ID="{C819B90A-7CC5-4F37-9A94-573D23500C7A}" WorkUnitID="{B127AF62-042D-472D-89E5-81F745C55BEC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5C824BF7-C976-436F-BA93-D4379397F34C}" ShortID="796875705">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D633AA39-3B85-4871-85E3-BE2B06291C21}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="80"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SCIShip_SCIFI Spaceship Door Abduction_01" ID="{C819B90A-7CC5-4F37-9A94-573D23500C7A}" WorkUnitID="{B127AF62-042D-472D-89E5-81F745C55BEC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{646A32B6-C22D-4A7D-B314-41D662BB7A1E}" ShortID="863333258">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SCIShip_SCIFI Spaceship Door Abduction_02" ID="{5D4BE072-47EA-4BEE-9AD2-EA48A58701EC}" WorkUnitID="{B127AF62-042D-472D-89E5-81F745C55BEC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8DAD306A-9AD6-4405-A2D8-43C6E09C34A5}" ShortID="470906362">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{BE7404A1-6A11-4088-967E-6339F404E079}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="80"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SCIShip_SCIFI Spaceship Door Abduction_02" ID="{5D4BE072-47EA-4BEE-9AD2-EA48A58701EC}" WorkUnitID="{B127AF62-042D-472D-89E5-81F745C55BEC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8B6F54CD-C150-49D9-9301-108BAF1FC8E5}" ShortID="157702253">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SCIShip_SCIFI Spaceship Door Abduction_03" ID="{B6503798-5E6F-42EB-8549-B98426AF6049}" WorkUnitID="{B127AF62-042D-472D-89E5-81F745C55BEC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{116DF69E-08BA-43AA-B364-3DE3CB5B1A67}" ShortID="89657590">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A7E8B786-B900-4232-B267-899147BAB86A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="80"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SCIShip_SCIFI Spaceship Door Abduction_03" ID="{B6503798-5E6F-42EB-8549-B98426AF6049}" WorkUnitID="{B127AF62-042D-472D-89E5-81F745C55BEC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Example_02" ID="{8EEF8068-00F5-495B-94F9-FF4AA9C48E9A}">
+					<ChildrenList>
+						<Action Name="" ID="{C542143F-1648-45CE-A2CF-53EB3403E7A1}" ShortID="540317193">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMBSea_Beach, Waves, Mild wind, Seagulls" ID="{FA578C8C-1F0A-4070-B469-A3902956B29A}" WorkUnitID="{5D808338-7A05-41A7-A308-4B86A0C78229}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{97DF2468-E388-4E9D-8107-F9681BD768C5}" ShortID="874254232">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CD8BEE2D-A04A-4D22-870B-9C518CF62E35}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="80"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMBSea_Beach, Waves, Mild wind, Seagulls" ID="{FA578C8C-1F0A-4070-B469-A3902956B29A}" WorkUnitID="{5D808338-7A05-41A7-A308-4B86A0C78229}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{867F71AC-8F4A-427B-AAB0-E9D8F184AECC}" ShortID="30110103">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMBSci_Spaceship sci fi" ID="{0BC9258E-0A32-4FD8-BF5B-12DFFF0FEDB1}" WorkUnitID="{5D808338-7A05-41A7-A308-4B86A0C78229}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{66F473F9-3EAB-430A-A24C-5FFFA24314B7}" ShortID="767391549">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B703B07C-9D77-48D0-93EC-071A38D052D6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="80"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMBSci_Spaceship sci fi" ID="{0BC9258E-0A32-4FD8-BF5B-12DFFF0FEDB1}" WorkUnitID="{5D808338-7A05-41A7-A308-4B86A0C78229}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6135EC67-BBCF-4D7A-94E7-B1A7B976A71D}" ShortID="1005827137">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SCIShip_SCIFI Spaceship Door Abduction_01" ID="{5B6DBD7F-6AA5-4D6E-84DA-5C17220C2B33}" WorkUnitID="{5D808338-7A05-41A7-A308-4B86A0C78229}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E60F33D6-0F24-434C-B04D-793A3C9787CF}" ShortID="1058050317">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{04292E13-EFAA-46AB-A79B-8A7110DA1D46}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="80"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SCIShip_SCIFI Spaceship Door Abduction_01" ID="{5B6DBD7F-6AA5-4D6E-84DA-5C17220C2B33}" WorkUnitID="{5D808338-7A05-41A7-A308-4B86A0C78229}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

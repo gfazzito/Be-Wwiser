@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B127AF62-042D-472D-89E5-81F745C55BEC}" SchemaVersion="119" RootDocumentID="{F38501BE-4DDD-44C9-8A89-969EAA8C81E7}" ParentDocumentID="{F38501BE-4DDD-44C9-8A89-969EAA8C81E7}">
+	<AudioObjects>
+		<WorkUnit Name="Example 1" ID="{B127AF62-042D-472D-89E5-81F745C55BEC}" OwnerID="{F38501BE-4DDD-44C9-8A89-969EAA8C81E7}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="SCIShip_SCIFI Spaceship Door Abduction_03" ID="{B6503798-5E6F-42EB-8549-B98426AF6049}" ShortID="880735047">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EEAB2B6-C399-4140-87AF-8F0796A0BCC8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40AF4A2C-1338-49E9-8D2B-744818E8E989}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{2B25C5FF-E313-408E-98D8-0449B8CA1E18}" WorkUnitID="{40AF4A2C-1338-49E9-8D2B-744818E8E989}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SCIShip_SCIFI Spaceship Door Abduction_Juan Camilo Chaves Vallejo_EAS_Parcial 2 (Corregido)" ID="{F213D2E3-C46F-4609-980B-887E1AB9A70D}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SCIShip_SCIFI Spaceship Door Abduction_Juan Camilo Chaves Vallejo_EAS_Parcial 2 (Corregido).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="365192900"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{33FBA9EF-69A6-4BC0-B7E1-0D6A397CF5D7}">
+							<ChildrenList>
+								<Path2D Name="Right" ID="{D396D578-0FCD-4C85-B25C-ACEEAD38C552}">
+									<PointList>
+										<Point>
+											<XPos>70</XPos>
+											<YPos>100</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{E7639D9C-DC8A-4687-A6E0-F7B3E6742897}" ShortID="419324638">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Time Stretch (Custom)" ID="{6133B602-32CF-47B5-990D-3B6962815655}" ShortID="766910902" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+														<PropertyList>
+															<Property Name="PitchShift" Type="Real32" Value="300"/>
+															<Property Name="PitchShiftRandom" Type="Real32" Value="900"/>
+															<Property Name="TimeStretch" Type="Real32" Value="1600"/>
+															<Property Name="TimeStretchRandom" Type="Real32" Value="148"/>
+															<Property Name="WindowSize" Type="int32" Value="6400"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{4B1BBF3C-425F-4C07-A685-1D0DE04529AB}" ShortID="987055595">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Parametric EQ (Custom)" ID="{54B068DB-43E8-44E9-8EC6-69F2B7F347A4}" ShortID="874050569" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<PropertyList>
+															<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+															<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+															<Property Name="FrequencyBand1" Type="Real32" Value="143"/>
+															<Property Name="FrequencyBand2" Type="Real32" Value="900"/>
+															<Property Name="FrequencyBand3" Type="Real32" Value="4769"/>
+															<Property Name="GainBand2" Type="Real32" Value="-3.5"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="SCIShip_SCIFI Spaceship Door Abduction_Juan Camilo Chaves Vallejo_EAS_Parcial 2 (Corregido)" ID="{F213D2E3-C46F-4609-980B-887E1AB9A70D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SCIShip_SCIFI Spaceship Door Abduction_01" ID="{C819B90A-7CC5-4F37-9A94-573D23500C7A}" ShortID="1056748068">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EEAB2B6-C399-4140-87AF-8F0796A0BCC8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40AF4A2C-1338-49E9-8D2B-744818E8E989}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{2B25C5FF-E313-408E-98D8-0449B8CA1E18}" WorkUnitID="{40AF4A2C-1338-49E9-8D2B-744818E8E989}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SCIShip_SCIFI Spaceship Door Abduction_Juan Camilo Chaves Vallejo_EAS_Parcial 2 (Corregido)" ID="{0CBCE710-1D03-4D99-8E93-7D4124AFDD5A}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SCIShip_SCIFI Spaceship Door Abduction_Juan Camilo Chaves Vallejo_EAS_Parcial 2 (Corregido).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="365192900"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{54B0213D-2795-4900-A0DD-F6F5FDEAF350}">
+							<ChildrenList>
+								<Path2D Name="Left" ID="{EFE9D1BE-323A-4789-9BCE-9A6F39A5E570}">
+									<PointList>
+										<Point>
+											<XPos>-70</XPos>
+											<YPos>100</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{55243743-482E-4416-91B9-BF4714B1ECBB}" ShortID="623682424">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Time Stretch (Custom)" ID="{9AFC3AA9-B3C1-49F9-ADEE-6E986861B27A}" ShortID="355912239" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+														<PropertyList>
+															<Property Name="PitchShiftRandom" Type="Real32" Value="1000"/>
+															<Property Name="TimeStretch" Type="Real32" Value="1600"/>
+															<Property Name="TimeStretchRandom" Type="Real32" Value="144"/>
+															<Property Name="WindowSize" Type="int32" Value="8192"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{41F7182A-F1EF-47D9-83C7-43702EB50D42}" ShortID="211554161">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Parametric EQ (Custom)" ID="{929BB795-04F7-48ED-82FD-5496588DFCCF}" ShortID="576639295" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<PropertyList>
+															<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+															<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+															<Property Name="FrequencyBand1" Type="Real32" Value="143"/>
+															<Property Name="FrequencyBand2" Type="Real32" Value="900"/>
+															<Property Name="FrequencyBand3" Type="Real32" Value="4769"/>
+															<Property Name="GainBand2" Type="Real32" Value="-3.5"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="SCIShip_SCIFI Spaceship Door Abduction_Juan Camilo Chaves Vallejo_EAS_Parcial 2 (Corregido)" ID="{0CBCE710-1D03-4D99-8E93-7D4124AFDD5A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SCIShip_SCIFI Spaceship Door Abduction_02" ID="{5D4BE072-47EA-4BEE-9AD2-EA48A58701EC}" ShortID="477528436">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EEAB2B6-C399-4140-87AF-8F0796A0BCC8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40AF4A2C-1338-49E9-8D2B-744818E8E989}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{2B25C5FF-E313-408E-98D8-0449B8CA1E18}" WorkUnitID="{40AF4A2C-1338-49E9-8D2B-744818E8E989}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SCIShip_SCIFI Spaceship Door Abduction_Juan Camilo Chaves Vallejo_EAS_Parcial 2 (Corregido)" ID="{96C695B5-896E-4BA1-9C98-E87328C24BF7}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SCIShip_SCIFI Spaceship Door Abduction_Juan Camilo Chaves Vallejo_EAS_Parcial 2 (Corregido).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="365192900"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{56C8E509-002B-4A8B-8FF5-5787DD00FD94}">
+							<ChildrenList>
+								<Path2D Name="Center" ID="{3AB77622-D317-4FCE-91DA-AA14DA88A4F7}">
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>100</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{D04DD30F-03B7-4FCB-BB59-DB05FA9A12B3}" ShortID="989039333">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Time Stretch (Custom)" ID="{3EDD252E-0A13-481F-B6F3-7A4554D03D9E}" ShortID="623947626" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+														<PropertyList>
+															<Property Name="PitchShift" Type="Real32" Value="-300"/>
+															<Property Name="PitchShiftRandom" Type="Real32" Value="1300"/>
+															<Property Name="TimeStretch" Type="Real32" Value="1600"/>
+															<Property Name="TimeStretchRandom" Type="Real32" Value="148"/>
+															<Property Name="WindowSize" Type="int32" Value="6400"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{BA640CCF-EFA7-45B1-AC75-139DFE05A786}" ShortID="665625338">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Parametric EQ (Custom)" ID="{2CB59EB2-4382-4CBF-92F2-3CFFC5B8ABEB}" ShortID="509825052" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<PropertyList>
+															<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+															<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+															<Property Name="FrequencyBand1" Type="Real32" Value="143"/>
+															<Property Name="FrequencyBand2" Type="Real32" Value="900"/>
+															<Property Name="FrequencyBand3" Type="Real32" Value="4769"/>
+															<Property Name="GainBand2" Type="Real32" Value="-3.5"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="SCIShip_SCIFI Spaceship Door Abduction_Juan Camilo Chaves Vallejo_EAS_Parcial 2 (Corregido)" ID="{96C695B5-896E-4BA1-9C98-E87328C24BF7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="NoEffect_SCIShip_SCIFI Spaceship Door Abduction" ID="{B55B0374-FF99-43AC-96D1-1066E17CD66D}" ShortID="82507435">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7EEAB2B6-C399-4140-87AF-8F0796A0BCC8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40AF4A2C-1338-49E9-8D2B-744818E8E989}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{2B25C5FF-E313-408E-98D8-0449B8CA1E18}" WorkUnitID="{40AF4A2C-1338-49E9-8D2B-744818E8E989}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SCIShip_SCIFI Spaceship Door Abduction_Juan Camilo Chaves Vallejo_EAS_Parcial 2 (Corregido)" ID="{47F4F7A1-9454-46C6-B6F5-117609FA888C}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SCIShip_SCIFI Spaceship Door Abduction_Juan Camilo Chaves Vallejo_EAS_Parcial 2 (Corregido).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="365192900"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{C8E3AA56-1F1F-4566-AB39-B82637EAB9FE}">
+							<ChildrenList>
+								<Path2D Name="Left" ID="{E026FFC0-7AB2-4687-A6B4-77F9D8F3E4E4}">
+									<PointList>
+										<Point>
+											<XPos>-70</XPos>
+											<YPos>100</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="SCIShip_SCIFI Spaceship Door Abduction_Juan Camilo Chaves Vallejo_EAS_Parcial 2 (Corregido)" ID="{47F4F7A1-9454-46C6-B6F5-117609FA888C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
