@@ -6,6 +6,11 @@
 				<Sound Name="AMBSea_Beach, Waves, Mild wind, Seagulls" ID="{FA578C8C-1F0A-4070-B469-A3902956B29A}" ShortID="243633345">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
