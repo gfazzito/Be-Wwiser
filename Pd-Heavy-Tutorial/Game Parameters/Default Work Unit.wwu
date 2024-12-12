@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F2F308DB-2083-470D-BB72-5D1D407825C0}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{F2F308DB-2083-470D-BB72-5D1D407825C0}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Some_RTPC" ID="{51B8C590-2B14-4656-92EE-0308C9D1706C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

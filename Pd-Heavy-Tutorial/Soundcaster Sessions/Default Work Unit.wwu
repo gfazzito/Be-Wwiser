@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7F423C9F-FF78-41AF-BF02-954F64EFEA30}" SchemaVersion="123">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{7F423C9F-FF78-41AF-BF02-954F64EFEA30}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Testing" ID="{A48B3A03-E92D-44C3-9F15-3431C4F0857E}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="New Sound SFX" ID="{EF109D9A-F309-4F7B-9FA6-D13BF6652A2D}" WorkUnitID="{797F8C0F-2D2A-4110-AAB4-D3E2BBA32E43}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Some_RTPC" ID="{51B8C590-2B14-4656-92EE-0308C9D1706C}"/>
+							<Value>0.257555360018335</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="New_Switch_03" ID="{154E7A7E-146E-42CE-86C7-32CC25C71D15}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
