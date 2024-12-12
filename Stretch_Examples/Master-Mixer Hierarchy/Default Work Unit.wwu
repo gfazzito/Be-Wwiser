@@ -11,11 +11,21 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AuxBus Name="Reverb" ID="{2B25C5FF-E313-408E-98D8-0449B8CA1E18}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>
 										<Local>
 											<EffectSlot Name="" ID="{B9D15E90-85AC-40C5-A4AB-DD8C1DF5C5E6}" ShortID="234970591">
+												<PropertyList>
+													<Property Name="Bypass" Type="bool" Value="True"/>
+												</PropertyList>
 												<ReferenceList>
 													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 														<ObjectRef Name="Hall_Medium" ID="{50286348-176A-4235-9E4C-CA5F73D87818}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
