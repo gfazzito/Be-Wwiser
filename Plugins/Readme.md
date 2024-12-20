@@ -1,6 +1,6 @@
 In this folder you'll find plugins to install in Wwise.
 
-**Important** - Check Wwise version and operating system of the plugins.
+**Important** - Check Wwise version and the operating system of the plugins (Only Windows for the moment).
 
 # How to install custom plugins in Wwise
 All the steps are in the Audiokinetic Launcher.
@@ -22,7 +22,6 @@ Select plugin and click "Install
 
 # How to uninstall the plugins
 
-## Step n° 1
 Go to the **Plug-ins** tab, select the plugin to remove and click "Uninstall"
 
 ![image](https://github.com/user-attachments/assets/502bc442-d220-4565-b544-8d953eaf95bf)
