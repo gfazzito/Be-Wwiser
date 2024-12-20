@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A03B0300-55C5-4257-80FC-8DDEC0DFD7E0}" SchemaVersion="119">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{A03B0300-55C5-4257-80FC-8DDEC0DFD7E0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{007B62F9-6AA9-4A5C-8D6C-D0ECA82DE5B8}" WorkUnitID="{BC4511BB-CD45-46D2-8EDB-5DEFCD3F74B4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="cuadrafonia" ID="{70FA0AF3-D085-4F5A-BF00-80A401276FAA}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>6304004</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{1274DBFA-B4D1-4FF7-AB39-87BF5ABF5D3D}" ShortID="49830132">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+														<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{4273548D-1A70-427D-BD72-76289FB5E035}" ShortID="1049602936">
+												<PropertyList>
+													<Property Name="Bypass" Type="bool">
+														<ValueList>
+															<Value>True</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Wwise_Recorder_(Custom)" ID="{D0DB4DDB-3B4B-4A98-9A87-F351FDB07F49}" ShortID="883913297" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+																<PropertyList>
+																	<Property Name="AuthoringFilename" Type="string" Value="D:\UNA\Medios Electroacústicos\Composicion III\Pieza cuadrafónica\Media\Wwise\Cacofonia2.wav"/>
+																	<Property Name="DownmixToStereo" Type="bool" Value="False"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

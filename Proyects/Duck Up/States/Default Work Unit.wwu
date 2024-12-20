@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6BCE9EED-0D5A-4BF7-92AC-B5E5557FDAE0}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{6BCE9EED-0D5A-4BF7-92AC-B5E5557FDAE0}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="MusicaEncendido" ID="{7BD2668A-EE3F-45D6-9CE3-AC7C7D8F794C}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.01"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{78EA1EBD-FD92-4D8E-8D27-CD12D29020E1}"/>
+						<State Name="On" ID="{57CB82F1-2C3F-472C-B2E4-057488A38322}"/>
+						<State Name="Off" ID="{27951BE9-313A-4FC5-9EA1-02D493BACB08}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="On" ID="{57CB82F1-2C3F-472C-B2E4-057488A38322}"/>
+							<EndState Name="Off" ID="{27951BE9-313A-4FC5-9EA1-02D493BACB08}"/>
+							<Time>0.1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="SonidosEncendido" ID="{3C2EEBA7-ED5A-463D-A879-46EACB622CC3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="18"/>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.1"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{4F924214-C255-4521-967E-5CEBE049E178}"/>
+						<State Name="On" ID="{5DCAF141-A68D-4B76-BE9D-7B4D42FAD0C3}"/>
+						<State Name="Off" ID="{4C85B71E-1425-4D1E-8598-24292FFC2F59}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="On" ID="{5DCAF141-A68D-4B76-BE9D-7B4D42FAD0C3}"/>
+							<EndState Name="Off" ID="{4C85B71E-1425-4D1E-8598-24292FFC2F59}"/>
+							<Time>0.1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="MusicaSecciones" ID="{034AE7D5-D274-46AE-B953-EFD42792D205}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{9B74FA7F-3E99-4D10-9169-BA4FF6FFE089}"/>
+						<State Name="MenuYGameplay" ID="{B8D741D2-D5D8-45D9-B6D1-B21DE79BFAC1}"/>
+						<State Name="GameOver" ID="{FE66EDD8-28C1-4344-A39B-BE5C80115E80}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="MenuYGameplay" ID="{B8D741D2-D5D8-45D9-B6D1-B21DE79BFAC1}"/>
+							<EndState Name="GameOver" ID="{FE66EDD8-28C1-4344-A39B-BE5C80115E80}"/>
+							<Time>0.5</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

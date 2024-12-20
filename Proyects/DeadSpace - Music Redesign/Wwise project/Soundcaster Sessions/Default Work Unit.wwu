@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{57E80D8A-82C1-43F6-9332-DC042A872AEE}" SchemaVersion="119">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{57E80D8A-82C1-43F6-9332-DC042A872AEE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Music" ID="{95C40052-395A-459E-906F-A018F5F4966C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{66E9A13B-5F95-45DC-974A-97022E3F6F9D}" WorkUnitID="{DFDAB861-6D18-48AD-AC1A-8C3D59D5C55D}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_All" ID="{41205F08-D995-4CA8-8C19-5976782BF164}" WorkUnitID="{DFDAB861-6D18-48AD-AC1A-8C3D59D5C55D}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Percussion_ReverbLevel" ID="{7645E788-28AE-4BEF-AC5B-D60BF0A83694}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Distance" ID="{5B96BC0C-1032-4CAA-BE0A-8E94FB796804}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Exploration" ID="{0D4DAF0F-85A4-428D-8E87-BB9D92357A45}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Close" ID="{19058290-DB8E-4210-95AB-899CEFC1A91C}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Ideas" ID="{814951F9-F3DD-4113-8381-8005577DDD05}">
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

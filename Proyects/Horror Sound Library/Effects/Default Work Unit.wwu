@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6F3DB2B2-AE56-48BD-9EBC-D12995129F3F}" SchemaVersion="123">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{6F3DB2B2-AE56-48BD-9EBC-D12995129F3F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Ambient" ID="{101BE37C-3A2E-4912-8E2A-4C388971F844}" ShortID="775053763">
+					<ChildrenList>
+						<Effect Name="Stretch_01" ID="{1C137697-80B7-44B9-AC21-37598166C08A}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+							<PropertyList>
+								<Property Name="TimeStretch" Type="Real32" Value="30"/>
+								<Property Name="WindowSize" Type="int32" Value="8192"/>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{6AC7FD19-6A02-4C33-B21A-E033593A7A79}" ShortID="348676200">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="PitchShift"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="PitchShift" ID="{4275E977-0378-4A9D-B960-120C01755D3B}" WorkUnitID="{FC745772-B875-42F8-A166-5A8E9AF1D84B}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{D7158935-BA8A-4F71-AA40-8D308919A06D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>100</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>500</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{2FB5CF1D-5B62-40D4-86C5-2B23BB832E0C}" ShortID="959468104">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="TimeStretch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Stretch_Amount" ID="{1E0EE86D-B81C-4E8A-9FDE-72079BD976A3}" WorkUnitID="{FC745772-B875-42F8-A166-5A8E9AF1D84B}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{342B9489-29E5-4F7B-9502-17A9570E98AD}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>1525</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>1600</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Effect>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

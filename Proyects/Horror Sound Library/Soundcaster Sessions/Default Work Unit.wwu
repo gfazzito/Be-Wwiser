@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{58534FE1-4F2F-47D7-B591-D89A66B866A9}" SchemaVersion="123">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{58534FE1-4F2F-47D7-B591-D89A66B866A9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Only 20 seconds" ID="{A9FBF916-A361-410C-9163-9341C79A1B6D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Infinite_Ambience" ID="{5DA41D06-27B4-48F4-A498-E195CC1FE433}" WorkUnitID="{EE37F85C-2681-4D79-BB25-942FB6D33CCA}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{561E2C04-E812-4D2E-8CCE-1C9613D8F501}" SchemaVersion="119">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{561E2C04-E812-4D2E-8CCE-1C9613D8F501}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Open_Door" ID="{AD6011CC-5B2B-4A36-8137-AB61BF4D302E}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

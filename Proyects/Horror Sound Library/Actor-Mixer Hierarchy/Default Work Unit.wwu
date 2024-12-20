@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BFA547CE-8D9B-4AD6-9C59-3CEFABDE6F87}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{BFA547CE-8D9B-4AD6-9C59-3CEFABDE6F87}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="Infinite_Ambience" ID="{396CDCC4-DCC9-44A0-B260-A66FE51D5F0D}" ShortID="850028885">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4396F3DE-A140-4B17-AC92-76CFECEC874A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C6FA75B-A5B7-4407-BB8F-D95E5FA18C3E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Ambience_01_Left" ID="{F8B36C49-AA29-40E3-91DE-779AA13749BA}" ShortID="458843229">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>1200</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{12513888-A4A7-4DB7-8628-9759238027A3}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4396F3DE-A140-4B17-AC92-76CFECEC874A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C6FA75B-A5B7-4407-BB8F-D95E5FA18C3E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambience-001" ID="{35CACF60-64EC-47C4-9FAA-68E48094FADC}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Ambience-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="335152885"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{C26E585D-5CC8-439F-942B-B008415A6E80}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-65"/>
+									</PropertyList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{60B645FB-39B7-41E2-903F-366000CEC3F1}" ShortID="272072773">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="PanX"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Panning" ID="{7FBCDE5D-26A9-4953-B981-1A0098430566}" WorkUnitID="{FC745772-B875-42F8-A166-5A8E9AF1D84B}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{10AF2A40-7789-4100-B409-B45018FD615A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-30</YPos>
+																				<Flags>21</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>30</YPos>
+																				<Flags>53</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Panner>
+							</PositioningInfo>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{5B2A8412-3C73-450F-B731-05774FF8EBFD}" ShortID="128069798">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+														<ObjectRef Name="Stretch_01" ID="{1C137697-80B7-44B9-AC21-37598166C08A}" WorkUnitID="{6F3DB2B2-AE56-48BD-9EBC-D12995129F3F}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{5F4D87E7-9293-47A0-A54B-DF40C47E1F6B}" ShortID="657695551">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="PitchShift" ID="{4275E977-0378-4A9D-B960-120C01755D3B}" WorkUnitID="{FC745772-B875-42F8-A166-5A8E9AF1D84B}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{915515E6-25A0-4343-8BD2-AEBC33A5A09D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>200</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambience-001" ID="{35CACF60-64EC-47C4-9FAA-68E48094FADC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambience_02_Center" ID="{1A9E1CC2-FCDF-4A49-BFB9-1A08F86ACA7D}" ShortID="416884457">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B471284A-A255-4AE9-A6C3-EB3905DB9AD6}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4396F3DE-A140-4B17-AC92-76CFECEC874A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C6FA75B-A5B7-4407-BB8F-D95E5FA18C3E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambience-001" ID="{D93324FA-8194-432A-96C4-AC1AE9643171}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Ambience-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="335152885"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{8C3B774F-9C93-45EB-8A43-C9BA9AE30454}">
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{7DA5325E-CFC0-45B8-A6BC-C35794391006}" ShortID="76436076">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="PanX"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Panning" ID="{7FBCDE5D-26A9-4953-B981-1A0098430566}" WorkUnitID="{FC745772-B875-42F8-A166-5A8E9AF1D84B}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{4FDC50DF-918F-492D-951D-696E2C7B1F14}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-30</YPos>
+																				<Flags>21</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>30</YPos>
+																				<Flags>53</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Panner>
+							</PositioningInfo>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{07B9D4AB-56DC-4DF9-8631-C002754132C9}" ShortID="682610941">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+														<ObjectRef Name="Stretch_01" ID="{1C137697-80B7-44B9-AC21-37598166C08A}" WorkUnitID="{6F3DB2B2-AE56-48BD-9EBC-D12995129F3F}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{C9F7BDA8-AABE-43A6-B12B-8785D7E6F594}" ShortID="234044092">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="CryBaby (Custom)" ID="{113FD44D-9EA1-4F68-9964-969FAC34299E}" ShortID="402103256" PluginName="CryBaby" CompanyID="64" PluginID="16947" PluginType="3">
+																<PropertyList>
+																	<Property Name="Wah" Type="Real32" Value="0.17"/>
+																</PropertyList>
+																<ObjectLists>
+																	<ObjectList Name="RTPC">
+																		<Reference>
+																			<Local>
+																				<RTPC Name="" ID="{C2B95154-D985-47A8-B09F-12E20535B642}" ShortID="480314647">
+																					<PropertyList>
+																						<Property Name="PropertyName" Type="string" Value="Wah"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="ControlInput">
+																							<ObjectRef Name="WahAmount" ID="{309797D6-1B16-4795-95E7-0C56B8F506C7}" WorkUnitID="{FC745772-B875-42F8-A166-5A8E9AF1D84B}"/>
+																						</Reference>
+																						<Reference Name="Curve">
+																							<Custom>
+																								<Curve Name="" ID="{C4DD7798-F329-45C7-97E2-9C59C70C66C1}">
+																									<PropertyList>
+																										<Property Name="Flags" Type="int32" Value="1"/>
+																									</PropertyList>
+																									<PointList>
+																										<Point>
+																											<XPos>0</XPos>
+																											<YPos>0</YPos>
+																											<Flags>21</Flags>
+																										</Point>
+																										<Point>
+																											<XPos>1</XPos>
+																											<YPos>0.75</YPos>
+																											<Flags>53</Flags>
+																										</Point>
+																									</PointList>
+																								</Curve>
+																							</Custom>
+																						</Reference>
+																					</ReferenceList>
+																				</RTPC>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{0AB79CC7-C353-4273-A8FA-4CE5D45B9C7F}" ShortID="465064186">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="PitchShift" ID="{4275E977-0378-4A9D-B960-120C01755D3B}" WorkUnitID="{FC745772-B875-42F8-A166-5A8E9AF1D84B}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{A8C22787-3085-415E-A552-010662160D18}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>200</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambience-001" ID="{D93324FA-8194-432A-96C4-AC1AE9643171}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambience_03_Right" ID="{0001E1D3-3F2F-469C-BBDF-AE6A084A33A5}" ShortID="959476503">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-700</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{95FDE041-CE12-40D4-83B1-03CB3133A738}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4396F3DE-A140-4B17-AC92-76CFECEC874A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C6FA75B-A5B7-4407-BB8F-D95E5FA18C3E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambience-001" ID="{4986AE8E-76FC-4B33-A9E9-AE1707108143}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Ambience-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="335152885"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{28508A76-D63E-48BE-AB9D-2D3484E7537F}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="65"/>
+									</PropertyList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{7E6ACBCC-CC63-4185-95FC-D70FF63B6B6E}" ShortID="845643506">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="PanX"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Panning" ID="{7FBCDE5D-26A9-4953-B981-1A0098430566}" WorkUnitID="{FC745772-B875-42F8-A166-5A8E9AF1D84B}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{A45FD71F-D52B-4AC3-9757-C4F3718E6513}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>30</YPos>
+																				<Flags>21</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>-30</YPos>
+																				<Flags>53</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Panner>
+							</PositioningInfo>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{7BD74226-5A57-4E5A-BB26-643106AD3DDB}" ShortID="389929978">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+														<ObjectRef Name="Stretch_01" ID="{1C137697-80B7-44B9-AC21-37598166C08A}" WorkUnitID="{6F3DB2B2-AE56-48BD-9EBC-D12995129F3F}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{D4BAAE56-A0FB-4EC3-A13B-B84258120819}" ShortID="537654969">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="PitchShift" ID="{4275E977-0378-4A9D-B960-120C01755D3B}" WorkUnitID="{FC745772-B875-42F8-A166-5A8E9AF1D84B}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{8F2934AC-586E-4611-8058-C4A211BE36DA}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>200</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambience-001" ID="{4986AE8E-76FC-4B33-A9E9-AE1707108143}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<BlendTrackList>
+						<BlendTrack Name="New Blend Track" ID="{4D368CE2-2289-483A-AD20-1D2046E69621}" ShortID="995654092"/>
+					</BlendTrackList>
+				</BlendContainer>
+				<Sound Name="Ambience_Probando" ID="{D0CFF410-627C-41B3-86F8-6B342031CED0}" ShortID="885949136">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OverrideEffect" Type="bool" Value="True"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>1020</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{042DCABB-66D9-4C11-B6B3-BC408C47BF42}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4396F3DE-A140-4B17-AC92-76CFECEC874A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C6FA75B-A5B7-4407-BB8F-D95E5FA18C3E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience-001" ID="{11E1CC49-B0F5-4F3A-8DD8-A966A045EB7C}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Ambience-001.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="335152885"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{47E609DF-33AE-462B-80D7-8EF19B3E7D32}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="65"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience-001" ID="{11E1CC49-B0F5-4F3A-8DD8-A966A045EB7C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

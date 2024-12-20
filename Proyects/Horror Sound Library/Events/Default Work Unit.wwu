@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EE37F85C-2681-4D79-BB25-942FB6D33CCA}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{EE37F85C-2681-4D79-BB25-942FB6D33CCA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Infinite_Ambience" ID="{5DA41D06-27B4-48F4-A498-E195CC1FE433}">
+					<ChildrenList>
+						<Action Name="" ID="{59513B27-FC90-4F22-BB7E-D5A9DA8C6DBC}" ShortID="239302477">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Infinite_Ambience" ID="{396CDCC4-DCC9-44A0-B260-A66FE51D5F0D}" WorkUnitID="{BFA547CE-8D9B-4AD6-9C59-3CEFABDE6F87}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AC49CB2F-AB03-4B4D-80B2-79D731F92155}" ShortID="1019431793">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64" Value="15">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2116F16B-D1EE-44A4-8A08-13BC51BDB1EB}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_01_Left" ID="{F8B36C49-AA29-40E3-91DE-779AA13749BA}" WorkUnitID="{BFA547CE-8D9B-4AD6-9C59-3CEFABDE6F87}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{816FB43F-FB4C-4E11-98D3-D22303170775}" ShortID="51823880">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64" Value="60">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C0DDFF13-769D-44CD-B99D-9D69FC7E117B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_02_Center" ID="{1A9E1CC2-FCDF-4A49-BFB9-1A08F86ACA7D}" WorkUnitID="{BFA547CE-8D9B-4AD6-9C59-3CEFABDE6F87}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5BEF533A-B085-4474-A14C-4B060A02F365}" ShortID="89719124">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64" Value="85">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D203B889-28BB-47E2-9FC0-183746C0B93A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_03_Right" ID="{0001E1D3-3F2F-469C-BBDF-AE6A084A33A5}" WorkUnitID="{BFA547CE-8D9B-4AD6-9C59-3CEFABDE6F87}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

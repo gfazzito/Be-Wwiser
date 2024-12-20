@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3D422AC5-3D37-49D7-BD7B-42994950E37D}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Musica" ID="{3D422AC5-3D37-49D7-BD7B-42994950E37D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Sintetizador" ID="{E3F25E56-6E6B-46E7-9931-DF8E7B3955C0}" ShortID="363466657">
+					<PropertyList>
+						<Property Name="IsVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F90C9025-C02C-4C25-AC40-F6A4D0C12DF6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Música" ID="{44CC988C-B248-4A2E-B4C4-6B1C7EB29DB2}" WorkUnitID="{03A7A5B2-A656-4D6E-A11C-6D388C79BF58}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Synth One" ID="{D49822C9-00FD-4608-B621-896834BD6F4B}" ShortID="554838346" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<PropertyList>
+								<Property Name="FmAmount" Type="Real32" Value="10"/>
+								<Property Name="FrequencyMode" Type="int32" Value="1"/>
+								<Property Name="Osc2Level" Type="Real32" Value="-16"/>
+								<Property Name="Osc2Waveform" Type="int32" Value="1"/>
+								<Property Name="OutputLevel" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{D017AB58-3E66-4551-9ED1-08B2DA39B83F}" ShortID="471956871">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{F1738179-BF8E-412A-B1BD-A9446D3CA489}" ShortID="1069459891">
+															<PropertyList>
+																<Property Name="EnvelopeAttackCurve" Type="Real64" Value="65"/>
+																<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.05"/>
+																<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.1"/>
+																<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.1"/>
+																<Property Name="EnvelopeSustainLevel" Type="Real64" Value="80"/>
+															</PropertyList>
+														</ModulatorEnvelope>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4D311E87-FBE4-4143-8DE0-D8D772FB98AB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-96</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-6</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OverSampling" Type="bool" Value="False"/>
+							</PropertyList>
+							<StateInfo>
+								<StatePropertyList>
+									<Property Name="OutputLevel"/>
+								</StatePropertyList>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="MusicaSecciones" ID="{034AE7D5-D274-46AE-B953-EFD42792D205}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="GameOver" ID="{FE66EDD8-28C1-4344-A39B-BE5C80115E80}"/>
+										<CustomState Name="" ID="{228F4F61-3425-4489-953E-9DF3CE8D6897}" ShortID="362357288">
+											<PropertyList>
+												<Property Name="OutputLevel" Type="Real32" Value="-4"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MenuYGameplay" ID="{B8D741D2-D5D8-45D9-B6D1-B21DE79BFAC1}"/>
+										<CustomState Name="" ID="{C7529A2F-EFC0-4416-ACEF-215A4C5A04CE}" ShortID="49758832"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<Language>English(US)</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Synth One" ID="{D49822C9-00FD-4608-B621-896834BD6F4B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

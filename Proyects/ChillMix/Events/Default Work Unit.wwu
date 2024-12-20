@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8F9B9079-7DAF-4FA8-9A77-41B66CC91543}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{8F9B9079-7DAF-4FA8-9A77-41B66CC91543}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Intensificar_graves" ID="{0D6CC76A-6D90-4BA3-A590-CA270CBEE1D8}"/>
+				<Event Name="EQ_Bypass" ID="{0E058C0F-3626-4EA4-8C45-3F9C008F18D9}"/>
+				<Event Name="DelaySi" ID="{71594BDD-341A-4DB4-BA78-B9AC2D79343A}"/>
+				<Event Name="DelayNo" ID="{B1055571-5C65-493E-A99C-95C14728D721}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

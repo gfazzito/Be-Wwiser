@@ -2,7 +2,7 @@ In this folder you'll find plugins to install in Wwise.
 
 **Important** - Check Wwise version and operating system of the plugins.
 
-# How to install the plugins in Wwise
+# How to install custom plugins in Wwise
 All the steps are in the Audiokinetic Launcher.
 
 ## Step n° 1

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5FF24D59-9E1E-4F73-92C4-E8B53E4C0FA1}" SchemaVersion="119">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{5FF24D59-9E1E-4F73-92C4-E8B53E4C0FA1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="grabadora" ID="{ABD654F8-6721-4C03-BF79-BF6DF845A6F5}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Silence" ID="{7BF687E5-0B72-4F7F-ADB9-04B2EFEDE5AC}" WorkUnitID="{2C749C19-1072-47ED-9CA0-5EB8A3EAF948}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Loop" ID="{56A4B024-2366-4DA2-9C17-22A6EC82F863}" WorkUnitID="{E7508FC4-54D8-4878-90B8-47799E6E2AD8}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Metal Hits" ID="{A71E6C87-F2FC-4194-8558-021B8A5EB4D9}" WorkUnitID="{2C749C19-1072-47ED-9CA0-5EB8A3EAF948}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Pops" ID="{765BA228-FED2-4DF4-BA1E-96757ACB851B}" WorkUnitID="{2C749C19-1072-47ED-9CA0-5EB8A3EAF948}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="bypass" ID="{45CBCD5F-0708-40AC-B867-0CAEA9A83898}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

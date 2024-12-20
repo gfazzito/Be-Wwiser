@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FC745772-B875-42F8-A166-5A8E9AF1D84B}" SchemaVersion="123">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{FC745772-B875-42F8-A166-5A8E9AF1D84B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Stretch" ID="{E3AC84EC-61AD-4E12-AC7F-7FDCAD467E51}" ShortID="165483575">
+					<ChildrenList>
+						<ModulatorLfo Name="PitchShift" ID="{4275E977-0378-4A9D-B960-120C01755D3B}" ShortID="117891931">
+							<PropertyList>
+								<Property Name="LfoAttack" Type="Real64" Value="5"/>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.1"/>
+								<Property Name="LfoWaveform" Type="int32" Value="5"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="Stretch_Amount" ID="{1E0EE86D-B81C-4E8A-9FDE-72079BD976A3}" ShortID="912222269">
+							<PropertyList>
+								<Property Name="LfoAttack" Type="Real64" Value="5"/>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.1"/>
+								<Property Name="LfoWaveform" Type="int32" Value="1"/>
+							</PropertyList>
+						</ModulatorLfo>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Harmonizer" ID="{834DBDAC-2494-42D8-BD7A-C8EF92D339EC}" ShortID="791133193">
+					<ChildrenList>
+						<ModulatorLfo Name="Random" ID="{70B05DE4-9FFF-4279-AEB1-B20B517D6D68}" ShortID="422668949"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Panning" ID="{663552F4-014E-41F0-A993-618B11C22D68}" ShortID="953509411">
+					<ChildrenList>
+						<ModulatorLfo Name="Panning" ID="{7FBCDE5D-26A9-4953-B981-1A0098430566}" ShortID="823184796">
+							<PropertyList>
+								<Property Name="LfoAttack" Type="Real64" Value="5"/>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.1"/>
+								<Property Name="LfoWaveform" Type="int32" Value="1"/>
+							</PropertyList>
+						</ModulatorLfo>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="CryBaby" ID="{05F2FE35-2154-489B-944D-CD2456E8CEEE}" ShortID="594371232">
+					<ChildrenList>
+						<ModulatorLfo Name="WahAmount" ID="{309797D6-1B16-4795-95E7-0C56B8F506C7}" ShortID="442206792">
+							<PropertyList>
+								<Property Name="LfoAttack" Type="Real64" Value="5"/>
+								<Property Name="LfoDepth" Type="Real64" Value="80"/>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.8"/>
+								<Property Name="LfoWaveform" Type="int32" Value="5"/>
+							</PropertyList>
+						</ModulatorLfo>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

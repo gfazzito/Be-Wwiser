@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B5D3B91B-A1EF-4E79-9BDF-48CFD9B2BC6F}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{B5D3B91B-A1EF-4E79-9BDF-48CFD9B2BC6F}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="bypass" ID="{45CBCD5F-0708-40AC-B867-0CAEA9A83898}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

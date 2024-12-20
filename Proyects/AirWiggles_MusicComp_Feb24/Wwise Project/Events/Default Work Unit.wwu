@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3E0A5566-FBCF-4848-A08B-93186D852570}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3E0A5566-FBCF-4848-A08B-93186D852570}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_MainMenu" ID="{08298C1A-23A4-4EC9-934B-46F20B066A1B}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{26AE72A0-98AB-4426-BDC0-D5EFBF61BD5F}" ShortID="864013042">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenu" ID="{F754D763-BDB3-470D-90B8-7C4D20E3C929}" WorkUnitID="{72BF3073-38D7-405D-A349-3A29C7F78E1D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MainMenu" ID="{E4EA7A77-ACBC-4EB8-9802-F84E13D31D89}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{3B8809F0-0DAB-4225-A580-3E56ED3760DF}" ShortID="246684722">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenu_Intro_ExitCue" ID="{7BD39D3B-F665-41AD-9334-B96EA55AD262}" WorkUnitID="{9C958D1F-6042-4177-A11F-693CAE1A3B36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2C999C38-EDA5-4E93-B247-AC22711DCDA0}" ShortID="428510149">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenu" ID="{F754D763-BDB3-470D-90B8-7C4D20E3C929}" WorkUnitID="{72BF3073-38D7-405D-A349-3A29C7F78E1D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E7E002F2-9F50-4336-9B38-79C2D3916CA5}" ShortID="463263638">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+								<Property Name="Delay" Type="Real64" Value="6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenu_Intro_ExitCue" ID="{7BD39D3B-F665-41AD-9334-B96EA55AD262}" WorkUnitID="{9C958D1F-6042-4177-A11F-693CAE1A3B36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Effects" ID="{3DD2BC9D-3B6B-4C47-B3D9-772A6727A249}" ShortID="937984889">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+				<Folder Name="CueEvent" ID="{C2705B8D-D678-42E6-8BD2-1B795D19AD67}" ShortID="701833690">
+					<ChildrenList>
+						<Event Name="CueLoop_Tremolo" ID="{23B5B926-F4A8-479F-9BA7-21B64713E23D}">
+							<ChildrenList>
+								<Action Name="" ID="{533EEE49-D310-4302-8AD9-981795E86EC1}" ShortID="731201000">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AutoTrigger_Timer" ID="{C7F7A4EB-4DE5-463D-94A2-46352A6DE27A}" WorkUnitID="{9C958D1F-6042-4177-A11F-693CAE1A3B36}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MainMenu_Intro_ExitCue" ID="{BA360A63-5359-454E-9398-797DB9C58E13}">
+							<ChildrenList>
+								<Action Name="" ID="{3DE26B84-7BE4-436F-9CEC-51775C06833A}" ShortID="226516060">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="FadeTime" Type="Real64" Value="10">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{96B81796-76C2-4521-A599-6FCD7FA362D8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainMenu_Intro_ExitCue" ID="{7BD39D3B-F665-41AD-9334-B96EA55AD262}" WorkUnitID="{9C958D1F-6042-4177-A11F-693CAE1A3B36}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="StopAll_Now" ID="{96617798-5C7F-46EE-8488-FF2F83609617}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{C3F05636-D800-4C71-A514-F113937DC24C}" ShortID="102019205">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenu_Intro_ExitCue" ID="{7BD39D3B-F665-41AD-9334-B96EA55AD262}" WorkUnitID="{9C958D1F-6042-4177-A11F-693CAE1A3B36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E7F44467-48B0-4B20-BFDF-1502323767BE}" ShortID="177792094">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenu" ID="{F754D763-BDB3-470D-90B8-7C4D20E3C929}" WorkUnitID="{72BF3073-38D7-405D-A349-3A29C7F78E1D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{18DB17E0-8FA3-4DD5-A125-7D02977C7A67}" ShortID="649372464">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenu_Intro_ExitCue" ID="{7BD39D3B-F665-41AD-9334-B96EA55AD262}" WorkUnitID="{9C958D1F-6042-4177-A11F-693CAE1A3B36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
