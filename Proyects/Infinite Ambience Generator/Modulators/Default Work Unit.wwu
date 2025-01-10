@@ -35,6 +35,7 @@
 								<Property Name="LfoWaveform" Type="int32" Value="1"/>
 							</PropertyList>
 						</ModulatorLfo>
+						<ModulatorLfo Name="New Modulator LFO" ID="{6C6758ED-7C12-4066-B688-BCBE3EA239DD}" ShortID="623788694"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="CryBaby" ID="{05F2FE35-2154-489B-944D-CD2456E8CEEE}" ShortID="594371232">
@@ -43,7 +44,8 @@
 							<PropertyList>
 								<Property Name="LfoAttack" Type="Real64" Value="5"/>
 								<Property Name="LfoDepth" Type="Real64" Value="80"/>
-								<Property Name="LfoFrequency" Type="Real64" Value="0.8"/>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.5"/>
+								<Property Name="LfoSmoothing" Type="Real64" Value="50"/>
 								<Property Name="LfoWaveform" Type="int32" Value="5"/>
 							</PropertyList>
 						</ModulatorLfo>

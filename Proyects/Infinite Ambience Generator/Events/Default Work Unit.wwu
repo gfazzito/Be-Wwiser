@@ -42,7 +42,7 @@
 						<Action Name="" ID="{816FB43F-FB4C-4E11-98D3-D22303170775}" ShortID="51823880">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="36"/>
-								<Property Name="SeekPercent" Type="Real64" Value="60">
+								<Property Name="SeekPercent" Type="Real64" Value="50">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{C0DDFF13-769D-44CD-B99D-9D69FC7E117B}">
@@ -65,7 +65,7 @@
 						<Action Name="" ID="{5BEF533A-B085-4474-A14C-4B060A02F365}" ShortID="89719124">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="36"/>
-								<Property Name="SeekPercent" Type="Real64" Value="85">
+								<Property Name="SeekPercent" Type="Real64" Value="80">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{D203B889-28BB-47E2-9FC0-183746C0B93A}">

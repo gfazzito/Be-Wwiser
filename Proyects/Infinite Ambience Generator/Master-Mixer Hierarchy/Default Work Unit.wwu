@@ -24,58 +24,6 @@
 							</Reference>
 							<Reference>
 								<Local>
-									<EffectSlot Name="" ID="{2E3111FB-7F71-4A68-BAD2-C742788EB87D}" ShortID="618079900">
-										<PropertyList>
-											<Property Name="Bypass" Type="bool" Value="True"/>
-										</PropertyList>
-										<ReferenceList>
-											<Reference Name="Effect">
-												<Custom>
-													<Effect Name="Faust Test Plugin (Custom)" ID="{0B237A44-B33E-4FAD-A922-CBDD530E1416}" ShortID="774421379" PluginName="Faust Test Plugin" CompanyID="64" PluginID="29298" PluginType="3">
-														<PropertyList>
-															<Property Name="DelayTime" Type="Real32" Value="0.08"/>
-															<Property Name="Feedback" Type="Real32" Value="0.33"/>
-														</PropertyList>
-													</Effect>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</EffectSlot>
-								</Local>
-							</Reference>
-							<Reference>
-								<Local>
-									<EffectSlot Name="" ID="{7D6EAFAD-449B-46D0-9A2A-E05B5D19CC5C}" ShortID="894803589">
-										<ReferenceList>
-											<Reference Name="Effect" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
-												<ObjectRef Name="High_Impact" ID="{2AFD6FB0-C906-4683-A377-FEEEF72967B0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-											</Reference>
-										</ReferenceList>
-									</EffectSlot>
-								</Local>
-							</Reference>
-							<Reference>
-								<Local>
-									<EffectSlot Name="" ID="{7B4FB795-F63A-4F13-A865-10613634A815}" ShortID="184125826">
-										<PropertyList>
-											<Property Name="Bypass" Type="bool" Value="True"/>
-										</PropertyList>
-										<ReferenceList>
-											<Reference Name="Effect">
-												<Custom>
-													<Effect Name="CryBaby (Custom)" ID="{19AF5A0C-79CC-4050-8E6F-633E6DB8B917}" ShortID="116199224" PluginName="CryBaby" CompanyID="64" PluginID="16947" PluginType="3">
-														<PropertyList>
-															<Property Name="Wah" Type="Real32" Value="0.09"/>
-														</PropertyList>
-													</Effect>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</EffectSlot>
-								</Local>
-							</Reference>
-							<Reference>
-								<Local>
 									<EffectSlot Name="" ID="{04692ED0-0C9F-4518-9B21-09F0416A7AE6}" ShortID="543355689">
 										<ReferenceList>
 											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
