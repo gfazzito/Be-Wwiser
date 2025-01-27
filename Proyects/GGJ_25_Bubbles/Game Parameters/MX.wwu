@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C29711EE-D0F2-4EC4-A67E-84284CD67FF2}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="MX" ID="{C29711EE-D0F2-4EC4-A67E-84284CD67FF2}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="mx_volume" ID="{959F5C67-3541-4381-8106-BA0C066BBFB7}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="mx_note_attack" ID="{278412C2-8096-449B-80F4-E04901C2689E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="6"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

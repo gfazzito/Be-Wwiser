@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DEEBD4F9-D772-4D0E-B8C0-2DCAF5933020}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="SX" ID="{DEEBD4F9-D772-4D0E-B8C0-2DCAF5933020}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="sx_startGame" ID="{337CC481-A63A-4B26-A04B-9226443D82B7}">
+					<ChildrenList>
+						<Action Name="" ID="{5575F015-329E-4EB6-93A9-589C5EF8C868}" ShortID="475862570">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="0.3">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{ED30EDEB-57AF-4747-A2AB-77996AF32AA7}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="0.3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sx_bubbles" ID="{3251FE46-8154-40CC-8C30-74F1610B7BCE}" WorkUnitID="{DEEBD4F9-D772-4D0E-B8C0-2DCAF5933020}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{93D17A4D-E7DD-4BC6-A4A5-69ED656736DA}" ShortID="438202374">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C063B3B2-A19A-43AD-A34D-3743915F4F1B}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="0.05"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cuacOriginal" ID="{085635A9-B962-4623-9FDB-F097DD6FBB91}" WorkUnitID="{30BD7BB3-FAC7-4707-8A74-C2E2F182134E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{730E4BD9-9616-41E8-9FE7-A11882DDE75C}" ShortID="52559335">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.2">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B6C06CFF-D6F8-4158-B5FB-AEB5F62E1835}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bubbles" ID="{9EF75250-347F-4986-9863-462E3D9D135A}" WorkUnitID="{30BD7BB3-FAC7-4707-8A74-C2E2F182134E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B339BE15-F77A-45DA-B65A-6BC1756280F0}" ShortID="810320240">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.75"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cuacInverted" ID="{F8D616E6-41C1-49C2-9218-B032BBB8A9A5}" WorkUnitID="{30BD7BB3-FAC7-4707-8A74-C2E2F182134E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sx_collision" ID="{2B80105C-1F55-4EE2-B4A5-FA7AD579C65F}"/>
+				<Event Name="sx_moveDuck" ID="{B1914D32-1903-4AC4-8DB1-6D7B416467D8}">
+					<ChildrenList>
+						<Action Name="" ID="{0A07D922-F7E2-402B-93C3-32C1A938CBD6}" ShortID="473995976">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bubbles" ID="{9EF75250-347F-4986-9863-462E3D9D135A}" WorkUnitID="{30BD7BB3-FAC7-4707-8A74-C2E2F182134E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F6F9C3BB-72CE-47DA-BA1C-3CF5017E1AF5}" ShortID="774706910">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="37"/>
+								<Property Name="SeekPercent" Type="Real64" Value="30">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3AB7DA45-2A2D-4F04-8068-81856B994618}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-30"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList/>
+							<ChildrenList>
+								<EventActionException Name="" ID="{21D6D840-BDC6-42B2-8792-7F2A74046834}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="bubble_03" ID="{55AD8920-8E99-4FA6-AFBD-EED8CB43ABC9}" WorkUnitID="{30BD7BB3-FAC7-4707-8A74-C2E2F182134E}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+							</ChildrenList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sx_bubbles" ID="{3251FE46-8154-40CC-8C30-74F1610B7BCE}">
+					<ChildrenList>
+						<Action Name="" ID="{00F9A68E-F41E-40EA-9990-1C1A70F35382}" ShortID="89146097">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bubbles" ID="{9EF75250-347F-4986-9863-462E3D9D135A}" WorkUnitID="{30BD7BB3-FAC7-4707-8A74-C2E2F182134E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sx_cuacOriginal" ID="{A0BD0738-9BFE-41CD-A9AF-44FA3B5CBE46}">
+					<ChildrenList>
+						<Action Name="Start" ID="{A6D874FB-E044-4084-958B-A319370ED444}" ShortID="177296382">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cuacOriginal" ID="{085635A9-B962-4623-9FDB-F097DD6FBB91}" WorkUnitID="{30BD7BB3-FAC7-4707-8A74-C2E2F182134E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sx_cuacInverted" ID="{1CD85293-4B27-4F23-A20F-BDD43FC97BC8}">
+					<ChildrenList>
+						<Action Name="Start" ID="{396060CE-B0AA-4BF6-AC9C-6981F342221F}" ShortID="47106207">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cuacInverted" ID="{F8D616E6-41C1-49C2-9218-B032BBB8A9A5}" WorkUnitID="{30BD7BB3-FAC7-4707-8A74-C2E2F182134E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sx_bubbleExpand" ID="{3EA6163A-92D2-48A6-9E7E-6BE47BC62290}">
+					<ChildrenList>
+						<Action Name="" ID="{69D6D8D0-279B-4CD5-B43F-EB2FBC921368}" ShortID="500235179">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bubbles" ID="{9EF75250-347F-4986-9863-462E3D9D135A}" WorkUnitID="{30BD7BB3-FAC7-4707-8A74-C2E2F182134E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{ADA1DD50-BDFB-431E-A3A9-04A76DE15082}" ShortID="997033142">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bubbles" ID="{9EF75250-347F-4986-9863-462E3D9D135A}" WorkUnitID="{30BD7BB3-FAC7-4707-8A74-C2E2F182134E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ADF86BDA-EDF3-49A2-9D91-6709255CD30A}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="SX" ID="{ADF86BDA-EDF3-49A2-9D91-6709255CD30A}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="sx_volume" ID="{BB448E44-B95F-4739-9E71-FD947B745A72}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

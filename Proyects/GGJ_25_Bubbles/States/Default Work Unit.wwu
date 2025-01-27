@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F68FFFAA-9119-48E6-90DE-7811546D9CA7}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{F68FFFAA-9119-48E6-90DE-7811546D9CA7}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="mx_gameState" ID="{1B7268EF-80E8-4A9D-97AD-601252D14A42}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{70565B9B-B164-432B-8495-34BD2C3784A3}"/>
+						<State Name="mainMenu" ID="{E1FB4768-CE40-4757-8A63-55157162FB55}"/>
+						<State Name="gameplay" ID="{024A75B8-50A2-46A6-8BC5-6CDD49573B51}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CB983170-5F2F-4F39-B917-86C29C334C94}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="MX" ID="{CB983170-5F2F-4F39-B917-86C29C334C94}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="mx_gameplay_playMidiNotes" ID="{82659DD9-2793-407B-85F7-09268610A916}">
+					<ChildrenList>
+						<Action Name="" ID="{9AF653A4-1391-4116-AA49-08B9081BDE02}" ShortID="547422557">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MIDI_Notes" ID="{AA8F4345-A863-49C6-860C-A2445606417C}" WorkUnitID="{30BD7BB3-FAC7-4707-8A74-C2E2F182134E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mx_mainMenu_startMusic" ID="{1601BFA1-FF3D-470B-8053-3E62B3CEEF53}">
+					<ChildrenList>
+						<Action Name="" ID="{FBBDA6CC-9808-4DF1-9FA2-9621F5B60CCD}" ShortID="873796447">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mainMenu" ID="{E1FB4768-CE40-4757-8A63-55157162FB55}" WorkUnitID="{F68FFFAA-9119-48E6-90DE-7811546D9CA7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0C8F3B7E-10C8-4ACC-AA40-3C8065515A60}" ShortID="808085809">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chord" ID="{3F6AE733-5EEA-4879-BC45-ACD151C5F45E}" WorkUnitID="{30BD7BB3-FAC7-4707-8A74-C2E2F182134E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mx_mainMenu_toGameplay" ID="{CCDF70AD-076F-420D-BF8B-1FB670F7FAE6}">
+					<ChildrenList>
+						<Action Name="" ID="{682847C9-65AD-497D-9315-D86A96E03B4F}" ShortID="1063373593">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gameplay" ID="{024A75B8-50A2-46A6-8BC5-6CDD49573B51}" WorkUnitID="{F68FFFAA-9119-48E6-90DE-7811546D9CA7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mx_gameplay_toMainMenu" ID="{D071E30E-9478-48A2-93B0-3292E5D55299}">
+					<ChildrenList>
+						<Action Name="" ID="{30C4F032-8F8F-42C0-88BA-6EE25A358779}" ShortID="1021325477">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mainMenu" ID="{E1FB4768-CE40-4757-8A63-55157162FB55}" WorkUnitID="{F68FFFAA-9119-48E6-90DE-7811546D9CA7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
