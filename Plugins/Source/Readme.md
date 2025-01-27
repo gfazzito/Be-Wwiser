@@ -1,4 +1,4 @@
-This plugins are loaded on the "Source" button from the Content section.
+This plugins are loaded from the "Source" button on the Content section.
 ![image](https://github.com/user-attachments/assets/c4d028f3-510e-4fd2-b335-a1016bce8466)
 
 ## Enginezzito
