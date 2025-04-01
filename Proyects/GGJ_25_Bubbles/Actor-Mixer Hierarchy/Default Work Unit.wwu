@@ -386,6 +386,13 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Music" ID="{FDFC26CA-CA19-416A-A747-A43499BF66C9}" ShortID="509158899">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1038732C-9127-47BD-B820-8970336D91FD}"/>
@@ -400,6 +407,11 @@
 Content provided by Vincent Gagnon
 © 2014 Vincent Gagnon</Comment>
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>15</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
 										<Value>50</Value>
@@ -610,6 +622,18 @@ Content provided by Vincent Gagnon
 							</ActiveSourceList>
 						</Sound>
 						<BlendContainer Name="Chord" ID="{3F6AE733-5EEA-4879-BC45-ACD151C5F45E}" ShortID="290685062">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1038732C-9127-47BD-B820-8970336D91FD}"/>
@@ -720,7 +744,7 @@ Content provided by Vincent Gagnon
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="pad_E4" ID="{42A39908-A039-4A67-95F5-6659E5154910}" ShortID="951935491">
+										<Sound Name="pad_E4_random" ID="{42A39908-A039-4A67-95F5-6659E5154910}" ShortID="951935491">
 											<PropertyList>
 												<Property Name="IsStreamingEnabled" Type="bool">
 													<ValueList>
@@ -784,6 +808,9 @@ Content provided by Vincent Gagnon
 											</ReferenceList>
 											<ChildrenList>
 												<SourcePlugin Name="Silence" ID="{3CB79455-77E8-48DB-BA6D-5CD7B095DF7A}" ShortID="972202783" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="2"/>
+													</PropertyList>
 													<Language>SFX</Language>
 												</SourcePlugin>
 											</ChildrenList>
@@ -861,7 +888,7 @@ Content provided by Vincent Gagnon
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="pad_G4" ID="{2F7B7973-1710-41F0-BCAF-C7515EDE5A07}" ShortID="483410738">
+										<Sound Name="pad_G4_random" ID="{2F7B7973-1710-41F0-BCAF-C7515EDE5A07}" ShortID="483410738">
 											<PropertyList>
 												<Property Name="IsStreamingEnabled" Type="bool">
 													<ValueList>
@@ -925,6 +952,9 @@ Content provided by Vincent Gagnon
 											</ReferenceList>
 											<ChildrenList>
 												<SourcePlugin Name="Silence" ID="{D9F737E9-EA7B-41FB-A6DB-C55B3F4315CD}" ShortID="863942532" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="2"/>
+													</PropertyList>
 													<Language>SFX</Language>
 												</SourcePlugin>
 											</ChildrenList>

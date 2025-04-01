@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{E8747838-4BFE-4FC2-A99E-B6FB0C22B2DE}" SchemaVersion="119">
+<WwiseDocument Type="WorkUnit" ID="{E8747838-4BFE-4FC2-A99E-B6FB0C22B2DE}" SchemaVersion="123">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{E8747838-4BFE-4FC2-A99E-B6FB0C22B2DE}" PersistMode="Standalone">
 			<ChildrenList>
@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-20</Value>
+								<Value>-12</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -20,7 +20,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Wwise Sine 3" ID="{E17D12C1-E956-44D2-B99D-6E0CFA35CEC4}" ShortID="725413517">
+						<Sound Name="Sine_3" ID="{E17D12C1-E956-44D2-B99D-6E0CFA35CEC4}" ShortID="725413517">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -47,7 +47,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="Frecuencia 3" ID="{11366FD1-9875-4A1B-8F32-A81EB49BFC2D}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
+																<ObjectRef Name="Frequency_mod_3" ID="{11366FD1-9875-4A1B-8F32-A81EB49BFC2D}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -82,7 +82,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="Envolvente 3" ID="{B7F7BB90-926C-417F-8EAA-6453F6A694B4}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
+																<ObjectRef Name="Volume_mod_3" ID="{B7F7BB90-926C-417F-8EAA-6453F6A694B4}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -118,7 +118,7 @@
 								<ActiveSource Name="Wwise Sine 3" ID="{D972EEDA-7EBA-4158-ADC6-F17C46DB95B9}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Wwise Sine 7" ID="{119EC0C6-92A4-4E01-89C6-801B9C610441}" ShortID="876080871">
+						<Sound Name="Sine_7" ID="{119EC0C6-92A4-4E01-89C6-801B9C610441}" ShortID="876080871">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -145,7 +145,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="Frecuencia 7" ID="{1CC5192B-8107-447F-B6DF-7E03230FFCF9}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
+																<ObjectRef Name="Frequency_mod_7" ID="{1CC5192B-8107-447F-B6DF-7E03230FFCF9}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -180,7 +180,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="Envolvente 7" ID="{D34F4E12-EB6E-4AE1-A200-30AE1A932735}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
+																<ObjectRef Name="Volume_mod_7" ID="{D34F4E12-EB6E-4AE1-A200-30AE1A932735}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -216,7 +216,7 @@
 								<ActiveSource Name="Wwise Sine 7" ID="{87FE0D20-5D02-41C1-BFC7-F771642AC7A0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Wwise Sine 1" ID="{92321B17-0457-47D5-B05D-35074DB858D4}" ShortID="37657052">
+						<Sound Name="Sine_1" ID="{92321B17-0457-47D5-B05D-35074DB858D4}" ShortID="37657052">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -245,7 +245,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="Frecuencia 1" ID="{F890F208-70BD-4531-9A17-74BD9CC226F6}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
+																<ObjectRef Name="Frequency_mod_1" ID="{F890F208-70BD-4531-9A17-74BD9CC226F6}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -281,7 +281,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="Envolvente 1" ID="{2AAFCD54-11B1-447C-9C8D-C66FFB69B5CD}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
+																<ObjectRef Name="Volume_mod_1" ID="{2AAFCD54-11B1-447C-9C8D-C66FFB69B5CD}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -317,7 +317,7 @@
 								<ActiveSource Name="Wwise Sine 1" ID="{CD372E64-E28A-4608-BAAC-B93FEF5E44DA}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Wwise Sine 5" ID="{F27DB483-12AC-446A-9376-EC25B7B1D611}" ShortID="293150476">
+						<Sound Name="Sine_5" ID="{F27DB483-12AC-446A-9376-EC25B7B1D611}" ShortID="293150476">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -344,7 +344,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="Frecuencia 5" ID="{CAC30F1C-5EA6-4EBE-BB54-7A27A9BBEFC0}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
+																<ObjectRef Name="Frequency_mod_5" ID="{CAC30F1C-5EA6-4EBE-BB54-7A27A9BBEFC0}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -379,7 +379,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="Envolvente 5" ID="{4A42FE6D-BE9A-4CE5-9A65-BCE9121E62CC}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
+																<ObjectRef Name="Volume_mod_5" ID="{4A42FE6D-BE9A-4CE5-9A65-BCE9121E62CC}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -415,7 +415,7 @@
 								<ActiveSource Name="Wwise Sine 5" ID="{85E6970B-B9CA-44D9-AAC4-3318520878CB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Wwise Sine 2" ID="{ABC943DD-3B8B-458C-9290-A02C7995A663}" ShortID="153416180">
+						<Sound Name="Sine_2" ID="{ABC943DD-3B8B-458C-9290-A02C7995A663}" ShortID="153416180">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -442,7 +442,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="Frecuencia 2" ID="{7982B9A1-9F78-438A-A203-DAB8B04CAF67}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
+																<ObjectRef Name="Frequency_mod_2" ID="{7982B9A1-9F78-438A-A203-DAB8B04CAF67}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -477,7 +477,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="Envolvente 2" ID="{70C2C5B0-9DCF-4CD1-BA3D-22C8C07E1AA6}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
+																<ObjectRef Name="Volume_mod_2" ID="{70C2C5B0-9DCF-4CD1-BA3D-22C8C07E1AA6}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -513,7 +513,7 @@
 								<ActiveSource Name="Wwise Sine 2" ID="{E0663AA3-0724-49FF-8A07-9A72BDCCF1F7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Wwise Sine 4" ID="{D38D8646-0B2A-4FDA-AF98-503250709463}" ShortID="419890428">
+						<Sound Name="Sine_4" ID="{D38D8646-0B2A-4FDA-AF98-503250709463}" ShortID="419890428">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -540,7 +540,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="Frecuencia 4" ID="{A5F6877C-F42A-4CB0-9A25-8B458AEE53C6}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
+																<ObjectRef Name="Frequency_mod_4" ID="{A5F6877C-F42A-4CB0-9A25-8B458AEE53C6}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -575,7 +575,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="Envolvente 4" ID="{39850F6F-87B5-4363-B6FC-666056EF4A22}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
+																<ObjectRef Name="Volume_mod_4" ID="{39850F6F-87B5-4363-B6FC-666056EF4A22}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -611,7 +611,7 @@
 								<ActiveSource Name="Wwise Sine 4" ID="{0BD187E0-4F6E-477F-BC6D-EAB8310FE084}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Wwise Sine 6" ID="{D9A76152-F09A-4C2A-8319-D52045400E4D}" ShortID="235841579">
+						<Sound Name="Sine_6" ID="{D9A76152-F09A-4C2A-8319-D52045400E4D}" ShortID="235841579">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -638,7 +638,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="Frecuencia 6" ID="{691CDB6F-B504-49A7-A700-49B41659C96B}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
+																<ObjectRef Name="Frequency_mod_6" ID="{691CDB6F-B504-49A7-A700-49B41659C96B}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -673,7 +673,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="Envolvente 6" ID="{82BE7CAD-6431-4799-B4B0-E52D13902EB8}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
+																<ObjectRef Name="Volume_mod_6" ID="{82BE7CAD-6431-4799-B4B0-E52D13902EB8}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -709,7 +709,7 @@
 								<ActiveSource Name="Wwise Sine 6" ID="{B5E004A8-E384-4D56-8EDF-034F8766C6B9}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Wwise Sine 8" ID="{55636CE6-8AE6-4230-BECA-979125F75601}" ShortID="707496417">
+						<Sound Name="Sine_8" ID="{55636CE6-8AE6-4230-BECA-979125F75601}" ShortID="707496417">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -736,7 +736,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="Frecuencia 8" ID="{5BD522B2-4805-4BB5-A6CA-A63357C1A877}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
+																<ObjectRef Name="Frequency_mod_8" ID="{5BD522B2-4805-4BB5-A6CA-A63357C1A877}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -771,7 +771,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="Envolvente 8" ID="{E2861B07-766D-40DE-AEFD-3A317ADB0968}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
+																<ObjectRef Name="Volume_mod_8" ID="{E2861B07-766D-40DE-AEFD-3A317ADB0968}" WorkUnitID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -808,19 +808,6 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<Reference>
-								<Local>
-									<RTPC Name="" ID="{697B23FC-3FF7-481B-8771-0FA816DA93A2}" ShortID="620254234">
-										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="Volume"/>
-										</PropertyList>
-									</RTPC>
-								</Local>
-							</Reference>
-						</ObjectList>
-					</ObjectLists>
 				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>

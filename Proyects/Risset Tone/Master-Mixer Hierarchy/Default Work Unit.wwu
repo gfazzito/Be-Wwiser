@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{293B842B-3D76-4D83-8C2A-B409B55F1E07}" SchemaVersion="119">
+<WwiseDocument Type="WorkUnit" ID="{293B842B-3D76-4D83-8C2A-B409B55F1E07}" SchemaVersion="123">
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{293B842B-3D76-4D83-8C2A-B409B55F1E07}" PersistMode="Standalone">
 			<ChildrenList>
@@ -16,31 +16,6 @@
 							<ObjectRef Name="System" ID="{BFEE9A97-85D7-41C4-99B2-804EBED24E3F}" WorkUnitID="{388DC225-C6F3-41AC-A31D-7075F74A50AF}"/>
 						</Reference>
 					</ReferenceList>
-					<ObjectLists>
-						<ObjectList Name="Effects">
-							<Reference>
-								<Local>
-									<EffectSlot Name="" ID="{B2D2A7D1-A9DF-4115-86F5-E79E168F7088}" ShortID="371655705">
-										<PropertyList>
-											<Property Name="Bypass" Type="bool" Value="True"/>
-										</PropertyList>
-										<ReferenceList>
-											<Reference Name="Effect">
-												<Custom>
-													<Effect Name="Wwise_Recorder_(Custom)" ID="{F4968142-D4F0-471C-98FD-FA6F630774F9}" ShortID="113442252" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
-														<PropertyList>
-															<Property Name="AuthoringFilename" Type="string" Value="D:\UNA\Medios Electroacústicos\Composición IV\Pieza octofonica\Media\Tono Riset.wav"/>
-															<Property Name="DownmixToStereo" Type="bool" Value="False"/>
-														</PropertyList>
-													</Effect>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</EffectSlot>
-								</Local>
-							</Reference>
-						</ObjectList>
-					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

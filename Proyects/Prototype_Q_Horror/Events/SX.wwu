@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9B8D2E66-2D2B-49B3-B8BF-12F237851C63}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="SX" ID="{9B8D2E66-2D2B-49B3-B8BF-12F237851C63}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Prototype_Q_Horror" ID="{D8495724-A2F1-4A8C-99C2-979FE8F6F739}">
+					<ChildrenList>
+						<Action Name="" ID="{18A175F0-EA8C-4A61-B14F-2E232C1F0F35}" ShortID="665694875">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Prototype_Q_Horror" ID="{D0B1C2A1-6295-4A89-9475-68DB34C7A0C3}" WorkUnitID="{964F1218-5892-4DD3-A606-08A465E394CC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -5,35 +5,9 @@
 			<ChildrenList>
 				<Event Name="sx_startGame" ID="{337CC481-A63A-4B26-A04B-9226443D82B7}">
 					<ChildrenList>
-						<Action Name="" ID="{5575F015-329E-4EB6-93A9-589C5EF8C868}" ShortID="475862570">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="41"/>
-								<Property Name="Delay" Type="Real64" Value="0.3">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{ED30EDEB-57AF-4747-A2AB-77996AF32AA7}">
-												<PropertyList>
-													<Property Name="Max" Type="Real64" Value="0.3"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sx_bubbles" ID="{3251FE46-8154-40CC-8C30-74F1610B7BCE}" WorkUnitID="{DEEBD4F9-D772-4D0E-B8C0-2DCAF5933020}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{93D17A4D-E7DD-4BC6-A4A5-69ED656736DA}" ShortID="438202374">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64">
+								<Property Name="Delay" Type="Real64" Value="0.1">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{C063B3B2-A19A-43AD-A34D-3743915F4F1B}">
@@ -69,16 +43,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Bubbles" ID="{9EF75250-347F-4986-9863-462E3D9D135A}" WorkUnitID="{30BD7BB3-FAC7-4707-8A74-C2E2F182134E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{B339BE15-F77A-45DA-B65A-6BC1756280F0}" ShortID="810320240">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="1.75"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="cuacInverted" ID="{F8D616E6-41C1-49C2-9218-B032BBB8A9A5}" WorkUnitID="{30BD7BB3-FAC7-4707-8A74-C2E2F182134E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -120,17 +84,6 @@
 									</ReferenceList>
 								</EventActionException>
 							</ChildrenList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="sx_bubbles" ID="{3251FE46-8154-40CC-8C30-74F1610B7BCE}">
-					<ChildrenList>
-						<Action Name="" ID="{00F9A68E-F41E-40EA-9990-1C1A70F35382}" ShortID="89146097">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Bubbles" ID="{9EF75250-347F-4986-9863-462E3D9D135A}" WorkUnitID="{30BD7BB3-FAC7-4707-8A74-C2E2F182134E}"/>
-								</Reference>
-							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>

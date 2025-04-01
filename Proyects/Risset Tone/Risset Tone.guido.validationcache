@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ValidationCache Version="1" SchemaVersion="119">
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Virtual Acoustics\Default Work Unit.wwu" DateLow="1709145287" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Triggers\Default Work Unit.wwu" DateLow="1709145287" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Switches\Default Work Unit.wwu" DateLow="1709145287" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\States\Default Work Unit.wwu" DateLow="1709145287" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1709145326" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\SoundBanks\Default Work Unit.wwu" DateLow="1709145287" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Risset Tone.wproj" DateLow="1709145286" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Queries\Factory Queries.wwu" DateLow="1709145287" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Queries\Default Work Unit.wwu" DateLow="1709145287" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Presets\Factory Spatial Audio.wwu" DateLow="1709145287" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Presets\Default Work Unit.wwu" DateLow="1709145287" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Modulators\Default Work Unit.wwu" DateLow="1709145362" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Mixing Sessions\Default Work Unit.wwu" DateLow="1709145287" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Metadata\Default Work Unit.wwu" DateLow="1709145287" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1709145286" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1709145287" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Game Parameters\Default Work Unit.wwu" DateLow="1709145362" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Events\Default Work Unit.wwu" DateLow="1709145326" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Effects\Factory Effects.wwu" DateLow="1709145287" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Effects\Default Work Unit.wwu" DateLow="1709145287" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1709145287" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1709145286" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Conversion Settings\Default Work Unit.wwu" DateLow="1709145286" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Control Surface Sessions\Default Work Unit.wwu" DateLow="1709145287" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Audio Devices\Default Work Unit.wwu" DateLow="1709145286" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Attenuations\Default Work Unit.wwu" DateLow="1709145287" DateHigh="0"/>
-	<ValidationCacheItem File="G:\Wwise-Projects\Risset Tone\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1709145286" DateHigh="0"/>
+<ValidationCache Version="1" SchemaVersion="123">
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Virtual Acoustics\Default Work Unit.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Triggers\Default Work Unit.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Switches\Default Work Unit.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\States\Default Work Unit.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1743533108" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\SoundBanks\Default Work Unit.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Risset Tone.wproj" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Risset Tone.Guido.wsettings" DateLow="1743533602" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Queries\Factory Queries.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Queries\Default Work Unit.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Presets\Factory Spatial Audio.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Presets\Default Work Unit.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Modulators\Default Work Unit.wwu" DateLow="1743532798" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Mixing Sessions\Default Work Unit.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Metadata\Default Work Unit.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1743531884" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Game Parameters\Default Work Unit.wwu" DateLow="1743531451" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Events\Default Work Unit.wwu" DateLow="1743523561" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Effects\Factory Effects.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Effects\Default Work Unit.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Conversion Settings\Default Work Unit.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Control Surface Sessions\Default Work Unit.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Audio Devices\Default Work Unit.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Attenuations\Default Work Unit.wwu" DateLow="1743523358" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PROYECTOS\Wwise-Projects\Proyects\Risset Tone\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1743532161" DateHigh="0"/>
 </ValidationCache>

@@ -1242,16 +1242,21 @@
 										<Property Name="DecayTime" Type="Real32" Value="9.4"/>
 										<Property Name="Density" Type="Real32" Value="70"/>
 										<Property Name="Diffusion" Type="Real32" Value="46"/>
-										<Property Name="DryLevel" Type="Real32" Value="-13.3"/>
+										<Property Name="DryLevel" Type="Real32" Value="-5.3"/>
 										<Property Name="ERLevel" Type="Real32" Value="-17"/>
-										<Property Name="Filter1Freq" Type="Real32" Value="590"/>
-										<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
-										<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
+										<Property Name="EnableToneControls" Type="bool" Value="True"/>
+										<Property Name="Filter1Freq" Type="Real32" Value="310"/>
+										<Property Name="Filter1Gain" Type="Real32" Value="-24"/>
+										<Property Name="Filter2Freq" Type="Real32" Value="130"/>
+										<Property Name="Filter2Gain" Type="Real32" Value="-8"/>
+										<Property Name="Filter2InsertPos" Type="int32" Value="2"/>
+										<Property Name="Filter3Freq" Type="Real32" Value="12180"/>
+										<Property Name="Filter3Gain" Type="Real32" Value="-23.5"/>
 										<Property Name="HFDamping" Type="Real32" Value="2.7"/>
 										<Property Name="PreDelay" Type="Real32" Value="40"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="0"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-7"/>
 										<Property Name="RoomShape" Type="Real32" Value="73"/>
-										<Property Name="RoomSize" Type="Real32" Value="69"/>
+										<Property Name="RoomSize" Type="Real32" Value="33"/>
 										<Property Name="StereoWidth" Type="Real32" Value="140"/>
 									</PropertyList>
 								</Effect>

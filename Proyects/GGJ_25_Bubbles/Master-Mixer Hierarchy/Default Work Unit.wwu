@@ -11,13 +11,6 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Music" ID="{1CB9E091-61F1-47DD-AF51-B1D5B591CAB3}">
-							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
-									<ValueList>
-										<Value>-6</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>

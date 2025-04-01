@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{25DDB413-C6D9-433E-BB38-8FF44B9F5497}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{25DDB413-C6D9-433E-BB38-8FF44B9F5497}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Risset" ID="{796570DF-CEB1-4A8F-A416-34A6D0837074}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{A73A870C-3D73-4916-B0F8-A88B3261F624}" ShortID="249763574">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Risset Tone" ID="{1F196E8D-6830-4CE8-BE97-B42BD2CEEFC3}" WorkUnitID="{E8747838-4BFE-4FC2-A99E-B6FB0C22B2DE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Risset" ID="{1C270931-B5FC-46E0-BF2C-8E1E504C29FD}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{2A391A7B-E14D-440C-80EF-27A5C1D617D0}" ShortID="812889047">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Risset Tone" ID="{1F196E8D-6830-4CE8-BE97-B42BD2CEEFC3}" WorkUnitID="{E8747838-4BFE-4FC2-A99E-B6FB0C22B2DE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

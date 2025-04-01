@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{4629AA29-6415-44EE-AEB8-0A0CFBCBB82E}" SchemaVersion="119">
+<WwiseDocument Type="WorkUnit" ID="{4629AA29-6415-44EE-AEB8-0A0CFBCBB82E}" SchemaVersion="123">
 	<SoundcasterSessions>
 		<WorkUnit Name="Default Work Unit" ID="{4629AA29-6415-44EE-AEB8-0A0CFBCBB82E}" PersistMode="Standalone">
 			<ChildrenList>
@@ -11,13 +11,13 @@
 						</Module>
 						<Module>
 							<ObjectRef Name="Stop_Risset" ID="{1C270931-B5FC-46E0-BF2C-8E1E504C29FD}" WorkUnitID="{25DDB413-C6D9-433E-BB38-8FF44B9F5497}"/>
-							<Position X="2" Y="0"/>
+							<Position X="1" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}"/>
-							<Value>0.1</Value>
+							<GameParameterRef Name="Speed" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}"/>
+							<Value>0.5</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

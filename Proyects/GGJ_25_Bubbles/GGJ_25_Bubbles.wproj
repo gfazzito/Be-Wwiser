@@ -14,6 +14,7 @@
 				<Language Name="SFX" ID="{6E25AF48-23FF-438E-B4BC-29D69E15B40A}"/>
 			</LanguageList>
 			<PropertyList>
+				<Property Name="AutoSoundBankEnabled" Type="bool" Value="True"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Linux"></Value>
@@ -35,6 +36,7 @@
 						<Value Platform="Android">256</Value>
 					</ValueList>
 				</Property>
+				<Property Name="MediaAutoBankSubFolders" Type="bool" Value="True"/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\..\..\Godot\Github\ggj25-bubble\assets\sound\GeneratedSoundbanks"/>
 				<Property Name="SoundBankIncludeSoundbankNamesStrings" Type="bool" Value="False"/>
 				<Property Name="SoundBankPaths" Type="string">
@@ -9319,9 +9321,9 @@
 								<Value>False</Value>
 							</ValueList>
 						</Property>
-						<Property Name="Pan Selector" Type="Real32">
+						<Property Name="Pan Selector" Type="bool">
 							<ValueList>
-								<Value>0</Value>
+								<Value>False</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Pulse" Type="Real32">

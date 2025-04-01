@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{964F1218-5892-4DD3-A606-08A465E394CC}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{964F1218-5892-4DD3-A606-08A465E394CC}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="Prototype_Q_Horror" ID="{D0B1C2A1-6295-4A89-9475-68DB34C7A0C3}" ShortID="430928016">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>55</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OutputBusLowpass" Type="int16">
+							<ValueList>
+								<Value>51</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{653FACFF-5B81-454B-9BF4-5EBF43430394}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MASTER_SX" ID="{41350E47-A8B3-431E-AF58-7ABB6167680F}" WorkUnitID="{1A7FA353-8C23-497D-9BAD-830641F299FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Screams_Left" ID="{11983EEF-EC17-4886-93E0-364D79083C72}" ShortID="200780369">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{653FACFF-5B81-454B-9BF4-5EBF43430394}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1A7FA353-8C23-497D-9BAD-830641F299FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Screams-001" ID="{8A9C92C5-0030-4EB2-9273-2FB2FE8C743D}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="123.859"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.362084601676901"/>
+										<Property Name="LoopEnd" Type="Real64" Value="3.4095757397429"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Screams\Screams-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="21837971"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{28B410D8-EFA6-49D0-B9D1-06E5AEC629BB}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-75"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{A5E3179B-A95D-41D0-97B1-0B0EBFEC08F5}" ShortID="27387262">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+														<ObjectRef Name="Time_Stretch_Left" ID="{2DD93C9C-0BA2-4EDD-949B-641E3F2EA7F9}" WorkUnitID="{00B0E4B2-F230-4D38-B311-FEA282F29ADD}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Screams-001" ID="{8A9C92C5-0030-4EB2-9273-2FB2FE8C743D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Screams_Center" ID="{804ADC16-EE16-4AA0-943A-0898C9334E8B}" ShortID="538698619">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{653FACFF-5B81-454B-9BF4-5EBF43430394}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1A7FA353-8C23-497D-9BAD-830641F299FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Screams-002" ID="{F758966E-E3BC-4C38-9D51-03157A098A4A}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="299.64"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.73061780104712"/>
+										<Property Name="LoopEnd" Type="Real64" Value="4.19262141361256"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Screams\Screams-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="451881445"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{70AF5A35-6513-4F51-A27F-FB653D4E1121}"/>
+							</PositioningInfo>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{B86D59F7-5B90-4E37-9E21-645A3E5FF6AB}" ShortID="181531557">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+														<ObjectRef Name="Time_Stretch_Center" ID="{6D4CE462-78BF-400E-BADA-26C4C014124D}" WorkUnitID="{00B0E4B2-F230-4D38-B311-FEA282F29ADD}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Screams-002" ID="{F758966E-E3BC-4C38-9D51-03157A098A4A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Screams_Right" ID="{E077AAD2-C9BB-475C-B389-E377862AE08D}" ShortID="802977708">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{653FACFF-5B81-454B-9BF4-5EBF43430394}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1A7FA353-8C23-497D-9BAD-830641F299FC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Screams-003" ID="{AF7EA71C-C469-47DD-9ACF-8C7C159F31C7}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="653.644"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.93953"/>
+										<Property Name="LoopEnd" Type="Real64" Value="5.37292077307896"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Screams\Screams-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="768709241"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{B1ABEC86-8C97-47D1-BE97-2358D855A019}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="75"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{6154ECC6-2D1B-4580-AAAB-837F27E72E20}" ShortID="246826852">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+														<ObjectRef Name="Time_Stretch_Right" ID="{E030AEAD-AA0C-4E2F-A0D6-6C409DF0161D}" WorkUnitID="{00B0E4B2-F230-4D38-B311-FEA282F29ADD}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Screams-003" ID="{AF7EA71C-C469-47DD-9ACF-8C7C159F31C7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

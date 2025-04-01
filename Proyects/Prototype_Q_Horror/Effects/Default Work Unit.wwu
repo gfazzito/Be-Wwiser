@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{00B0E4B2-F230-4D38-B311-FEA282F29ADD}" SchemaVersion="123">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{00B0E4B2-F230-4D38-B311-FEA282F29ADD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Time_Stretch_Left" ID="{2DD93C9C-0BA2-4EDD-949B-641E3F2EA7F9}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+					<PropertyList>
+						<Property Name="TimeStretch" Type="Real32" Value="1333"/>
+						<Property Name="WindowSize" Type="int32" Value="256"/>
+					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{1C5D0708-486E-428B-A18A-6C2BC069BF80}" ShortID="930343024">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="TimeStretch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Scream_Stretch_01" ID="{20E755E6-E0D6-458F-BA03-8F85ADAA4FBB}" WorkUnitID="{9C1A1450-23FA-493A-BDBC-924256B9CD20}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{44E02BCC-2E76-4EB9-AC49-DB584215B289}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>1404.54545</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>1547.72727</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{EFC13596-CBAD-4BAD-AA64-CBA8B72D0523}" ShortID="1004176151">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="PitchShift"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Scream_Stretch_02" ID="{9D11EFC9-0758-405F-9F1B-792AE5D7D66A}" WorkUnitID="{9C1A1450-23FA-493A-BDBC-924256B9CD20}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{BD0236F4-FC09-4398-AF72-ADC4C60B3B76}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>339.39394</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Effect>
+				<Effect Name="Time_Stretch_Center" ID="{6D4CE462-78BF-400E-BADA-26C4C014124D}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+					<PropertyList>
+						<Property Name="TimeStretch" Type="Real32" Value="1600"/>
+						<Property Name="WindowSize" Type="int32" Value="8192"/>
+					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{DDF2C6F4-531F-4352-8FAB-082545F56414}" ShortID="1053404519">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="PitchShift"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Scream_Stretch_03" ID="{56EFEF7A-9272-409B-8691-92C1A0F75A1B}" WorkUnitID="{9C1A1450-23FA-493A-BDBC-924256B9CD20}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{0114CE2B-0C1D-44B9-A04A-919A29BFF168}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-678.78788</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>630.30304</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{3C40707C-C681-44C6-ACA6-8FD5264F01E8}" ShortID="240033313">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="TimeStretch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Scream_Stretch_02" ID="{9D11EFC9-0758-405F-9F1B-792AE5D7D66A}" WorkUnitID="{9C1A1450-23FA-493A-BDBC-924256B9CD20}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{0B9997EC-288D-42B5-B4F5-EB070F940E19}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>1356.81818</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>1600</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Effect>
+				<Effect Name="Time_Stretch_Right" ID="{E030AEAD-AA0C-4E2F-A0D6-6C409DF0161D}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+					<PropertyList>
+						<Property Name="TimeStretch" Type="Real32" Value="733"/>
+						<Property Name="WindowSize" Type="int32" Value="256"/>
+					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{5786B0B0-D19E-4253-86C0-EC4C2C46AAAE}" ShortID="910849563">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="TimeStretch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Scream_Stretch_03" ID="{56EFEF7A-9272-409B-8691-92C1A0F75A1B}" WorkUnitID="{9C1A1450-23FA-493A-BDBC-924256B9CD20}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{2B4A2C3B-DA5C-40FB-8701-F9C33F10A9FD}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>1436.36363</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>1568.18182</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{39AFC829-B7E6-4A26-B653-D6D8F74A1F54}" ShortID="745051646">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="PitchShift"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Scream_Stretch_01" ID="{20E755E6-E0D6-458F-BA03-8F85ADAA4FBB}" WorkUnitID="{9C1A1450-23FA-493A-BDBC-924256B9CD20}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{574AEC68-328F-4B36-B980-58288E336AFD}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>-290.90908</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

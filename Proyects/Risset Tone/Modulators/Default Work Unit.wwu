@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}" SchemaVersion="119">
+<WwiseDocument Type="WorkUnit" ID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}" SchemaVersion="123">
 	<Modulators>
 		<WorkUnit Name="Default Work Unit" ID="{FB13D624-3F2E-4344-AAA9-1B9FC0A42542}" PersistMode="Standalone">
 			<ChildrenList>
-				<ModulatorLfo Name="Envolvente 1" ID="{2AAFCD54-11B1-447C-9C8D-C66FFB69B5CD}" ShortID="101042736">
+				<ModulatorLfo Name="Volume_mod_1" ID="{2AAFCD54-11B1-447C-9C8D-C66FFB69B5CD}" ShortID="101042736">
 					<PropertyList>
 						<Property Name="LfoFrequency" Type="Real64" Value="0.07">
 							<ModifierList>
@@ -24,7 +24,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
+												<ObjectRef Name="Speed" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
@@ -54,7 +54,7 @@
 						</ObjectList>
 					</ObjectLists>
 				</ModulatorLfo>
-				<ModulatorLfo Name="Frecuencia 1" ID="{F890F208-70BD-4531-9A17-74BD9CC226F6}" ShortID="1011567220">
+				<ModulatorLfo Name="Frequency_mod_1" ID="{F890F208-70BD-4531-9A17-74BD9CC226F6}" ShortID="1011567220">
 					<PropertyList>
 						<Property Name="LfoFrequency" Type="Real64" Value="0.07">
 							<ModifierList>
@@ -76,7 +76,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
+												<ObjectRef Name="Speed" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
@@ -106,7 +106,7 @@
 						</ObjectList>
 					</ObjectLists>
 				</ModulatorLfo>
-				<ModulatorLfo Name="Envolvente 3" ID="{B7F7BB90-926C-417F-8EAA-6453F6A694B4}" ShortID="197547641">
+				<ModulatorLfo Name="Volume_mod_3" ID="{B7F7BB90-926C-417F-8EAA-6453F6A694B4}" ShortID="197547641">
 					<PropertyList>
 						<Property Name="LfoFrequency" Type="Real64" Value="0.07">
 							<ModifierList>
@@ -126,7 +126,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
+												<ObjectRef Name="Speed" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
@@ -156,7 +156,7 @@
 						</ObjectList>
 					</ObjectLists>
 				</ModulatorLfo>
-				<ModulatorLfo Name="Frecuencia 3" ID="{11366FD1-9875-4A1B-8F32-A81EB49BFC2D}" ShortID="838114505">
+				<ModulatorLfo Name="Frequency_mod_3" ID="{11366FD1-9875-4A1B-8F32-A81EB49BFC2D}" ShortID="838114505">
 					<PropertyList>
 						<Property Name="LfoFrequency" Type="Real64" Value="0.07">
 							<ModifierList>
@@ -178,7 +178,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
+												<ObjectRef Name="Speed" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
@@ -208,7 +208,7 @@
 						</ObjectList>
 					</ObjectLists>
 				</ModulatorLfo>
-				<ModulatorLfo Name="Envolvente 5" ID="{4A42FE6D-BE9A-4CE5-9A65-BCE9121E62CC}" ShortID="167485245">
+				<ModulatorLfo Name="Volume_mod_5" ID="{4A42FE6D-BE9A-4CE5-9A65-BCE9121E62CC}" ShortID="167485245">
 					<PropertyList>
 						<Property Name="LfoFrequency" Type="Real64" Value="0.07">
 							<ModifierList>
@@ -229,7 +229,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
+												<ObjectRef Name="Speed" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
@@ -259,7 +259,7 @@
 						</ObjectList>
 					</ObjectLists>
 				</ModulatorLfo>
-				<ModulatorLfo Name="Frecuencia 5" ID="{CAC30F1C-5EA6-4EBE-BB54-7A27A9BBEFC0}" ShortID="746208308">
+				<ModulatorLfo Name="Frequency_mod_5" ID="{CAC30F1C-5EA6-4EBE-BB54-7A27A9BBEFC0}" ShortID="746208308">
 					<PropertyList>
 						<Property Name="LfoFrequency" Type="Real64" Value="0.07">
 							<ModifierList>
@@ -280,7 +280,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
+												<ObjectRef Name="Speed" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
@@ -310,7 +310,7 @@
 						</ObjectList>
 					</ObjectLists>
 				</ModulatorLfo>
-				<ModulatorLfo Name="Frecuencia 7" ID="{1CC5192B-8107-447F-B6DF-7E03230FFCF9}" ShortID="400269619">
+				<ModulatorLfo Name="Frequency_mod_7" ID="{1CC5192B-8107-447F-B6DF-7E03230FFCF9}" ShortID="400269619">
 					<PropertyList>
 						<Property Name="LfoFrequency" Type="Real64" Value="0.07">
 							<ModifierList>
@@ -332,7 +332,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
+												<ObjectRef Name="Speed" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
@@ -362,7 +362,7 @@
 						</ObjectList>
 					</ObjectLists>
 				</ModulatorLfo>
-				<ModulatorLfo Name="Envolvente 7" ID="{D34F4E12-EB6E-4AE1-A200-30AE1A932735}" ShortID="520851910">
+				<ModulatorLfo Name="Volume_mod_7" ID="{D34F4E12-EB6E-4AE1-A200-30AE1A932735}" ShortID="520851910">
 					<PropertyList>
 						<Property Name="LfoFrequency" Type="Real64" Value="0.07">
 							<ModifierList>
@@ -383,7 +383,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
+												<ObjectRef Name="Speed" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
@@ -413,7 +413,7 @@
 						</ObjectList>
 					</ObjectLists>
 				</ModulatorLfo>
-				<ModulatorLfo Name="Envolvente 2" ID="{70C2C5B0-9DCF-4CD1-BA3D-22C8C07E1AA6}" ShortID="1005351028">
+				<ModulatorLfo Name="Volume_mod_2" ID="{70C2C5B0-9DCF-4CD1-BA3D-22C8C07E1AA6}" ShortID="1005351028">
 					<PropertyList>
 						<Property Name="LfoFrequency" Type="Real64" Value="0.07">
 							<ModifierList>
@@ -434,7 +434,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
+												<ObjectRef Name="Speed" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
@@ -464,7 +464,7 @@
 						</ObjectList>
 					</ObjectLists>
 				</ModulatorLfo>
-				<ModulatorLfo Name="Envolvente 8" ID="{E2861B07-766D-40DE-AEFD-3A317ADB0968}" ShortID="878259162">
+				<ModulatorLfo Name="Volume_mod_8" ID="{E2861B07-766D-40DE-AEFD-3A317ADB0968}" ShortID="878259162">
 					<PropertyList>
 						<Property Name="LfoFrequency" Type="Real64" Value="0.07">
 							<ModifierList>
@@ -485,7 +485,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
+												<ObjectRef Name="Speed" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
@@ -515,7 +515,7 @@
 						</ObjectList>
 					</ObjectLists>
 				</ModulatorLfo>
-				<ModulatorLfo Name="Frecuencia 8" ID="{5BD522B2-4805-4BB5-A6CA-A63357C1A877}" ShortID="39916976">
+				<ModulatorLfo Name="Frequency_mod_8" ID="{5BD522B2-4805-4BB5-A6CA-A63357C1A877}" ShortID="39916976">
 					<PropertyList>
 						<Property Name="LfoFrequency" Type="Real64" Value="0.07">
 							<ModifierList>
@@ -537,7 +537,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
+												<ObjectRef Name="Speed" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
@@ -567,7 +567,7 @@
 						</ObjectList>
 					</ObjectLists>
 				</ModulatorLfo>
-				<ModulatorLfo Name="Envolvente 4" ID="{39850F6F-87B5-4363-B6FC-666056EF4A22}" ShortID="946359996">
+				<ModulatorLfo Name="Volume_mod_4" ID="{39850F6F-87B5-4363-B6FC-666056EF4A22}" ShortID="946359996">
 					<PropertyList>
 						<Property Name="LfoFrequency" Type="Real64" Value="0.07">
 							<ModifierList>
@@ -588,7 +588,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
+												<ObjectRef Name="Speed" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
@@ -618,7 +618,7 @@
 						</ObjectList>
 					</ObjectLists>
 				</ModulatorLfo>
-				<ModulatorLfo Name="Frecuencia 4" ID="{A5F6877C-F42A-4CB0-9A25-8B458AEE53C6}" ShortID="507905596">
+				<ModulatorLfo Name="Frequency_mod_4" ID="{A5F6877C-F42A-4CB0-9A25-8B458AEE53C6}" ShortID="507905596">
 					<PropertyList>
 						<Property Name="LfoFrequency" Type="Real64" Value="0.07">
 							<ModifierList>
@@ -640,7 +640,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
+												<ObjectRef Name="Speed" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
@@ -670,7 +670,7 @@
 						</ObjectList>
 					</ObjectLists>
 				</ModulatorLfo>
-				<ModulatorLfo Name="Envolvente 6" ID="{82BE7CAD-6431-4799-B4B0-E52D13902EB8}" ShortID="536376126">
+				<ModulatorLfo Name="Volume_mod_6" ID="{82BE7CAD-6431-4799-B4B0-E52D13902EB8}" ShortID="536376126">
 					<PropertyList>
 						<Property Name="LfoFrequency" Type="Real64" Value="0.07">
 							<ModifierList>
@@ -691,7 +691,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
+												<ObjectRef Name="Speed" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
@@ -721,7 +721,7 @@
 						</ObjectList>
 					</ObjectLists>
 				</ModulatorLfo>
-				<ModulatorLfo Name="Frecuencia 6" ID="{691CDB6F-B504-49A7-A700-49B41659C96B}" ShortID="150104053">
+				<ModulatorLfo Name="Frequency_mod_6" ID="{691CDB6F-B504-49A7-A700-49B41659C96B}" ShortID="150104053">
 					<PropertyList>
 						<Property Name="LfoFrequency" Type="Real64" Value="0.07">
 							<ModifierList>
@@ -743,7 +743,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
+												<ObjectRef Name="Speed" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
@@ -773,7 +773,7 @@
 						</ObjectList>
 					</ObjectLists>
 				</ModulatorLfo>
-				<ModulatorLfo Name="Frecuencia 2" ID="{7982B9A1-9F78-438A-A203-DAB8B04CAF67}" ShortID="364471780">
+				<ModulatorLfo Name="Frequency_mod_2" ID="{7982B9A1-9F78-438A-A203-DAB8B04CAF67}" ShortID="364471780">
 					<PropertyList>
 						<Property Name="LfoFrequency" Type="Real64" Value="0.07">
 							<ModifierList>
@@ -795,7 +795,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
+												<ObjectRef Name="Speed" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
@@ -807,47 +807,6 @@
 															<Point>
 																<XPos>0</XPos>
 																<YPos>0.002</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>1</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</RTPC>
-								</Local>
-							</Reference>
-						</ObjectList>
-					</ObjectLists>
-				</ModulatorLfo>
-				<ModulatorLfo Name="adad" ID="{00CCA514-2808-47A5-9D60-91539780F3FA}" ShortID="71619816">
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<Reference>
-								<Local>
-									<RTPC Name="" ID="{71A81BD8-966F-4C39-8861-C39B0898815E}" ShortID="451083980">
-										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="LfoFrequency"/>
-										</PropertyList>
-										<ReferenceList>
-											<Reference Name="ControlInput">
-												<ObjectRef Name="FreqMod" ID="{5E17BAFD-4093-423D-B899-0EE48AE021EC}" WorkUnitID="{661F65F8-0ED6-4E72-B39E-C0CFCF5EC5F5}"/>
-											</Reference>
-											<Reference Name="Curve">
-												<Custom>
-													<Curve Name="" ID="{149C764E-E1C4-4962-A899-2AE681F40963}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="5"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>0.001</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>

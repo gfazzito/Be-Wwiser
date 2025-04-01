@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{25DDB413-C6D9-433E-BB38-8FF44B9F5497}" SchemaVersion="119">
+<WwiseDocument Type="WorkUnit" ID="{25DDB413-C6D9-433E-BB38-8FF44B9F5497}" SchemaVersion="123">
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{25DDB413-C6D9-433E-BB38-8FF44B9F5497}" PersistMode="Standalone">
 			<ChildrenList>
@@ -33,7 +33,7 @@
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeInCurve" Type="int16" Value="7"/>
 								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">

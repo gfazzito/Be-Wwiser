@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9C1A1450-23FA-493A-BDBC-924256B9CD20}" SchemaVersion="123">
+	<Modulators>
+		<WorkUnit Name="SX" ID="{9C1A1450-23FA-493A-BDBC-924256B9CD20}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Screams" ID="{D4ACBDDB-65C2-46D9-90A4-413E664F881C}" ShortID="331486861">
+					<ChildrenList>
+						<ModulatorLfo Name="Scream_Stretch_01" ID="{20E755E6-E0D6-458F-BA03-8F85ADAA4FBB}" ShortID="616257352">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.08"/>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{87552BA7-A310-478F-90F9-201D495B2C3A}" ShortID="388082327">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="LfoFrequency"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="selfModulator_01" ID="{7E4653DA-07AD-4767-AF72-C0ACCF87BC68}" WorkUnitID="{9C1A1450-23FA-493A-BDBC-924256B9CD20}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{A1CF23CD-5D26-4655-8954-069138501163}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="5"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0.0294</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</ModulatorLfo>
+						<ModulatorLfo Name="Scream_Stretch_02" ID="{9D11EFC9-0758-405F-9F1B-792AE5D7D66A}" ShortID="758601007">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.04"/>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{F616EEDE-1502-4BD7-99E8-DBAB1FDF5D96}" ShortID="66645732">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="LfoFrequency"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="selfModulator_02" ID="{C75B6DCD-2586-4EFF-AEB9-94C812079073}" WorkUnitID="{9C1A1450-23FA-493A-BDBC-924256B9CD20}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{45191FA1-D0CC-4CCE-AF9E-CB13DEA4353A}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="5"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0.05</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</ModulatorLfo>
+						<ModulatorLfo Name="Scream_Stretch_03" ID="{56EFEF7A-9272-409B-8691-92C1A0F75A1B}" ShortID="537976816">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.01"/>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{7461E624-5D9A-4268-8302-5C837DE87759}" ShortID="765656797">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="LfoFrequency"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="selfModulator_03" ID="{D492A092-50B3-460F-A2E5-684D8490C327}" WorkUnitID="{9C1A1450-23FA-493A-BDBC-924256B9CD20}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{EDB24939-D4A1-4830-A0B3-D6855CFF3FFD}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="5"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0.05273</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</ModulatorLfo>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="selfModulators" ID="{C7CCE0BB-5932-4805-8639-A9115D83CB42}" ShortID="264699561">
+					<ChildrenList>
+						<ModulatorLfo Name="selfModulator_01" ID="{7E4653DA-07AD-4767-AF72-C0ACCF87BC68}" ShortID="146058209">
+							<PropertyList>
+								<Property Name="LfoDepth" Type="Real64" Value="80"/>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.01"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="selfModulator_02" ID="{C75B6DCD-2586-4EFF-AEB9-94C812079073}" ShortID="681019708">
+							<PropertyList>
+								<Property Name="LfoDepth" Type="Real64" Value="80"/>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.02"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="selfModulator_03" ID="{D492A092-50B3-460F-A2E5-684D8490C327}" ShortID="1061118249">
+							<PropertyList>
+								<Property Name="LfoDepth" Type="Real64" Value="80"/>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.03"/>
+							</PropertyList>
+						</ModulatorLfo>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>
